@@ -28,7 +28,7 @@
                                 </g>
                             </svg>
                         </span>
-                        <span class="button-text"><?php echo esc_html__('Learn more', 'ogeko'); ?></span>
+                        <span class="button-text"><?php echo esc_html__('FIND OUT MORE', 'ogeko'); ?></span>
                         <span class="button-icon right">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.673" height="14.707">
                                 <defs>
