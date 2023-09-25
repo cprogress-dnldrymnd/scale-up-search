@@ -1,0 +1,105 @@
+{
+    "system_colors": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "color": "#315EFF"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary(Heading)",
+            "color": "#3D4250"
+        },
+        {
+            "_id": "tertiary",
+            "title": "Tertiary",
+            "color": "#FFDA2B"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "color": "#525252"
+        },
+        {
+            "_id": "text_lighter",
+            "title": "Text Lighter",
+            "color": "#535762"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent",
+            "color": "#00C9FF"
+        },
+        {
+            "_id": "lighter",
+            "title": "Lighter",
+            "color": "#8B909C"
+        },
+        {
+            "_id": "dark",
+            "title": "Dark",
+            "color": "#000000"
+        },
+        {
+            "_id": "border",
+            "title": "Border",
+            "color": "#DBDDE3"
+        }
+    ],
+    "custom_colors": [],
+    "system_typography": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_weight": "400"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary(Heading)",
+            "typography_typography": "custom",
+            "typography_font_family": "Sora",
+            "typography_font_weight": "700"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_weight": "400"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_weight": "700"
+        }
+    ],
+    "custom_typography": [],
+    "default_generic_fonts": "Sans-serif",
+    "site_name": "Ogeko",
+    "site_description": "Human Resource Solutions WP Theme",
+    "page_title_selector": "h1.entry-title",
+    "activeItemIndex": 1,
+    "active_breakpoints": [
+        "viewport_mobile",
+        "viewport_mobile_extra",
+        "viewport_tablet",
+        "viewport_tablet_extra",
+        "viewport_laptop"
+    ],
+    "container_width": {
+        "unit": "px",
+        "size": 1290,
+        "sizes": []
+    },
+    "space_between_widgets": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+    },
+    "body_background_background": "classic",
+    "body_background_color": "#fff"
+}

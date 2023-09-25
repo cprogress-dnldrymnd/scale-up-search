@@ -1,0 +1,778 @@
+
+@font-face {
+  font-family: "ogeko-icon";
+  src: url("../../../fonts/icons/ogeko-icon-1.0.0.eot");
+  src: url("../../../fonts/icons/ogeko-icon-1.0.0.eot?#iefix") format("eot"), url("../../../fonts/icons/ogeko-icon-1.0.0.woff2") format("woff2"), url("../../../fonts/icons/ogeko-icon-1.0.0.woff") format("woff"), url("../../../fonts/icons/ogeko-icon-1.0.0.ttf") format("truetype"), url("../../../fonts/icons/ogeko-icon-1.0.0.svg#ogeko-icon-1.0.0") format("svg");
+}
+[class*=ogeko-icon-] {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.ogeko-icon-account:before {
+  content: "";
+}
+
+.ogeko-icon-advanced:before {
+  content: "";
+}
+
+.ogeko-icon-angle-down:before {
+  content: "";
+}
+
+.ogeko-icon-angle-left:before {
+  content: "";
+}
+
+.ogeko-icon-angle-right:before {
+  content: "";
+}
+
+.ogeko-icon-angle-up:before {
+  content: "";
+}
+
+.ogeko-icon-arrow-left:before {
+  content: "";
+}
+
+.ogeko-icon-arrow-right:before {
+  content: "";
+}
+
+.ogeko-icon-award:before {
+  content: "";
+}
+
+.ogeko-icon-basic:before {
+  content: "";
+}
+
+.ogeko-icon-breadcrumb:before {
+  content: "";
+}
+
+.ogeko-icon-build:before {
+  content: "";
+}
+
+.ogeko-icon-business:before {
+  content: "";
+}
+
+.ogeko-icon-call:before {
+  content: "";
+}
+
+.ogeko-icon-check-fill:before {
+  content: "";
+}
+
+.ogeko-icon-clients:before {
+  content: "";
+}
+
+.ogeko-icon-clock:before {
+  content: "";
+}
+
+.ogeko-icon-communication:before {
+  content: "";
+}
+
+.ogeko-icon-compare:before {
+  content: "";
+}
+
+.ogeko-icon-compensation:before {
+  content: "";
+}
+
+.ogeko-icon-compensation1:before {
+  content: "";
+}
+
+.ogeko-icon-culture:before {
+  content: "";
+}
+
+.ogeko-icon-cyber-security:before {
+  content: "";
+}
+
+.ogeko-icon-digital-marketing:before {
+  content: "";
+}
+
+.ogeko-icon-donec:before {
+  content: "";
+}
+
+.ogeko-icon-download-pdf:before {
+  content: "";
+}
+
+.ogeko-icon-envelop2:before {
+  content: "";
+}
+
+.ogeko-icon-experience:before {
+  content: "";
+}
+
+.ogeko-icon-eye:before {
+  content: "";
+}
+
+.ogeko-icon-facebook-f:before {
+  content: "";
+}
+
+.ogeko-icon-flus2:before {
+  content: "";
+}
+
+.ogeko-icon-google-plus-g:before {
+  content: "";
+}
+
+.ogeko-icon-heart-1:before {
+  content: "";
+}
+
+.ogeko-icon-hiring:before {
+  content: "";
+}
+
+.ogeko-icon-indentify:before {
+  content: "";
+}
+
+.ogeko-icon-industry:before {
+  content: "";
+}
+
+.ogeko-icon-innovators:before {
+  content: "";
+}
+
+.ogeko-icon-like:before {
+  content: "";
+}
+
+.ogeko-icon-linkedin-in:before {
+  content: "";
+}
+
+.ogeko-icon-location3:before {
+  content: "";
+}
+
+.ogeko-icon-machine:before {
+  content: "";
+}
+
+.ogeko-icon-management:before {
+  content: "";
+}
+
+.ogeko-icon-misson:before {
+  content: "";
+}
+
+.ogeko-icon-onboarding:before {
+  content: "";
+}
+
+.ogeko-icon-ourstategy:before {
+  content: "";
+}
+
+.ogeko-icon-ourteam:before {
+  content: "";
+}
+
+.ogeko-icon-peaplecohesion:before {
+  content: "";
+}
+
+.ogeko-icon-phone2:before {
+  content: "";
+}
+
+.ogeko-icon-play-solid:before {
+  content: "";
+}
+
+.ogeko-icon-premier:before {
+  content: "";
+}
+
+.ogeko-icon-profile2user:before {
+  content: "";
+}
+
+.ogeko-icon-qoute-2:before {
+  content: "";
+}
+
+.ogeko-icon-quality:before {
+  content: "";
+}
+
+.ogeko-icon-quote1:before {
+  content: "";
+}
+
+.ogeko-icon-ranking:before {
+  content: "";
+}
+
+.ogeko-icon-reply-o:before {
+  content: "";
+}
+
+.ogeko-icon-round-arrow-drop-down:before {
+  content: "";
+}
+
+.ogeko-icon-scale:before {
+  content: "";
+}
+
+.ogeko-icon-shopping-bag:before {
+  content: "";
+}
+
+.ogeko-icon-support2:before {
+  content: "";
+}
+
+.ogeko-icon-survey:before {
+  content: "";
+}
+
+.ogeko-icon-web-design:before {
+  content: "";
+}
+
+.ogeko-icon-adobe:before {
+  content: "";
+}
+
+.ogeko-icon-amazon:before {
+  content: "";
+}
+
+.ogeko-icon-android:before {
+  content: "";
+}
+
+.ogeko-icon-angular:before {
+  content: "";
+}
+
+.ogeko-icon-apper:before {
+  content: "";
+}
+
+.ogeko-icon-apple:before {
+  content: "";
+}
+
+.ogeko-icon-atlassian:before {
+  content: "";
+}
+
+.ogeko-icon-behance:before {
+  content: "";
+}
+
+.ogeko-icon-bitbucket:before {
+  content: "";
+}
+
+.ogeko-icon-bitcoin:before {
+  content: "";
+}
+
+.ogeko-icon-bity:before {
+  content: "";
+}
+
+.ogeko-icon-bluetooth:before {
+  content: "";
+}
+
+.ogeko-icon-btc:before {
+  content: "";
+}
+
+.ogeko-icon-centos:before {
+  content: "";
+}
+
+.ogeko-icon-chrome:before {
+  content: "";
+}
+
+.ogeko-icon-codepen:before {
+  content: "";
+}
+
+.ogeko-icon-cpanel:before {
+  content: "";
+}
+
+.ogeko-icon-discord:before {
+  content: "";
+}
+
+.ogeko-icon-dochub:before {
+  content: "";
+}
+
+.ogeko-icon-docker:before {
+  content: "";
+}
+
+.ogeko-icon-dribbble:before {
+  content: "";
+}
+
+.ogeko-icon-dropbox:before {
+  content: "";
+}
+
+.ogeko-icon-drupal:before {
+  content: "";
+}
+
+.ogeko-icon-ebay:before {
+  content: "";
+}
+
+.ogeko-icon-facebook:before {
+  content: "";
+}
+
+.ogeko-icon-figma:before {
+  content: "";
+}
+
+.ogeko-icon-firefox:before {
+  content: "";
+}
+
+.ogeko-icon-google-plus:before {
+  content: "";
+}
+
+.ogeko-icon-google:before {
+  content: "";
+}
+
+.ogeko-icon-grunt:before {
+  content: "";
+}
+
+.ogeko-icon-gulp:before {
+  content: "";
+}
+
+.ogeko-icon-html5:before {
+  content: "";
+}
+
+.ogeko-icon-joomla:before {
+  content: "";
+}
+
+.ogeko-icon-link-brand:before {
+  content: "";
+}
+
+.ogeko-icon-linkedin:before {
+  content: "";
+}
+
+.ogeko-icon-mailchimp:before {
+  content: "";
+}
+
+.ogeko-icon-opencart:before {
+  content: "";
+}
+
+.ogeko-icon-paypal:before {
+  content: "";
+}
+
+.ogeko-icon-pinterest-p:before {
+  content: "";
+}
+
+.ogeko-icon-pinterest:before {
+  content: "";
+}
+
+.ogeko-icon-reddit:before {
+  content: "";
+}
+
+.ogeko-icon-skype:before {
+  content: "";
+}
+
+.ogeko-icon-slack:before {
+  content: "";
+}
+
+.ogeko-icon-snapchat:before {
+  content: "";
+}
+
+.ogeko-icon-spotify:before {
+  content: "";
+}
+
+.ogeko-icon-trello:before {
+  content: "";
+}
+
+.ogeko-icon-twitter:before {
+  content: "";
+}
+
+.ogeko-icon-vimeo:before {
+  content: "";
+}
+
+.ogeko-icon-whatsapp:before {
+  content: "";
+}
+
+.ogeko-icon-wordpress:before {
+  content: "";
+}
+
+.ogeko-icon-yoast:before {
+  content: "";
+}
+
+.ogeko-icon-youtube:before {
+  content: "";
+}
+
+.ogeko-icon-360:before {
+  content: "";
+}
+
+.ogeko-icon-bars:before {
+  content: "";
+}
+
+.ogeko-icon-caret-down:before {
+  content: "";
+}
+
+.ogeko-icon-caret-left:before {
+  content: "";
+}
+
+.ogeko-icon-caret-right:before {
+  content: "";
+}
+
+.ogeko-icon-caret-up:before {
+  content: "";
+}
+
+.ogeko-icon-cart-empty:before {
+  content: "";
+}
+
+.ogeko-icon-check-square:before {
+  content: "";
+}
+
+.ogeko-icon-circle:before {
+  content: "";
+}
+
+.ogeko-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.ogeko-icon-comment:before {
+  content: "";
+}
+
+.ogeko-icon-comments:before {
+  content: "";
+}
+
+.ogeko-icon-contact:before {
+  content: "";
+}
+
+.ogeko-icon-credit-card:before {
+  content: "";
+}
+
+.ogeko-icon-dot-circle:before {
+  content: "";
+}
+
+.ogeko-icon-edit:before {
+  content: "";
+}
+
+.ogeko-icon-envelope:before {
+  content: "";
+}
+
+.ogeko-icon-expand-alt:before {
+  content: "";
+}
+
+.ogeko-icon-external-link-alt:before {
+  content: "";
+}
+
+.ogeko-icon-file-alt:before {
+  content: "";
+}
+
+.ogeko-icon-file-archive:before {
+  content: "";
+}
+
+.ogeko-icon-filter:before {
+  content: "";
+}
+
+.ogeko-icon-folder-open:before {
+  content: "";
+}
+
+.ogeko-icon-folder:before {
+  content: "";
+}
+
+.ogeko-icon-frown:before {
+  content: "";
+}
+
+.ogeko-icon-gift:before {
+  content: "";
+}
+
+.ogeko-icon-grid:before {
+  content: "";
+}
+
+.ogeko-icon-grip-horizontal:before {
+  content: "";
+}
+
+.ogeko-icon-heart-fill:before {
+  content: "";
+}
+
+.ogeko-icon-heart:before {
+  content: "";
+}
+
+.ogeko-icon-history:before {
+  content: "";
+}
+
+.ogeko-icon-home:before {
+  content: "";
+}
+
+.ogeko-icon-info-circle:before {
+  content: "";
+}
+
+.ogeko-icon-instagram:before {
+  content: "";
+}
+
+.ogeko-icon-level-up-alt:before {
+  content: "";
+}
+
+.ogeko-icon-list:before {
+  content: "";
+}
+
+.ogeko-icon-map-marker-check:before {
+  content: "";
+}
+
+.ogeko-icon-meh:before {
+  content: "";
+}
+
+.ogeko-icon-minus-circle:before {
+  content: "";
+}
+
+.ogeko-icon-minus:before {
+  content: "";
+}
+
+.ogeko-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.ogeko-icon-money-bill:before {
+  content: "";
+}
+
+.ogeko-icon-pencil-alt:before {
+  content: "";
+}
+
+.ogeko-icon-play-circle:before {
+  content: "";
+}
+
+.ogeko-icon-play:before {
+  content: "";
+}
+
+.ogeko-icon-plus-circle:before {
+  content: "";
+}
+
+.ogeko-icon-plus:before {
+  content: "";
+}
+
+.ogeko-icon-quote:before {
+  content: "";
+}
+
+.ogeko-icon-random:before {
+  content: "";
+}
+
+.ogeko-icon-reply-all:before {
+  content: "";
+}
+
+.ogeko-icon-reply:before {
+  content: "";
+}
+
+.ogeko-icon-search-plus:before {
+  content: "";
+}
+
+.ogeko-icon-search:before {
+  content: "";
+}
+
+.ogeko-icon-shield-check:before {
+  content: "";
+}
+
+.ogeko-icon-shopping-basket:before {
+  content: "";
+}
+
+.ogeko-icon-shopping-cart:before {
+  content: "";
+}
+
+.ogeko-icon-sign-out-alt:before {
+  content: "";
+}
+
+.ogeko-icon-smile:before {
+  content: "";
+}
+
+.ogeko-icon-spinner:before {
+  content: "";
+}
+
+.ogeko-icon-square:before {
+  content: "";
+}
+
+.ogeko-icon-star:before {
+  content: "";
+}
+
+.ogeko-icon-store:before {
+  content: "";
+}
+
+.ogeko-icon-sync:before {
+  content: "";
+}
+
+.ogeko-icon-tachometer-alt:before {
+  content: "";
+}
+
+.ogeko-icon-th-large:before {
+  content: "";
+}
+
+.ogeko-icon-th-list:before {
+  content: "";
+}
+
+.ogeko-icon-thumbtack:before {
+  content: "";
+}
+
+.ogeko-icon-ticket:before {
+  content: "";
+}
+
+.ogeko-icon-times-circle:before {
+  content: "";
+}
+
+.ogeko-icon-times:before {
+  content: "";
+}
+
+.ogeko-icon-trophy-alt:before {
+  content: "";
+}
+
+.ogeko-icon-truck:before {
+  content: "";
+}
+
+.ogeko-icon-user-headset:before {
+  content: "";
+}
+
+.ogeko-icon-user-shield:before {
+  content: "";
+}
+
+.ogeko-icon-user:before {
+  content: "";
+}
+
+.ogeko-icon-video:before {
+  content: "";
+}
+

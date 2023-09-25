@@ -1,0 +1,2319 @@
+@charset "UTF-8";
+/* ===== Start ICONS CSS ===== */
+@font-face {
+  font-family: "ogeko-icon";
+  src: url("./assets/fonts/icons/ogeko-icon-1.0.0.eot");
+  src: url("./assets/fonts/icons/ogeko-icon-1.0.0.eot?#iefix") format("eot"), url("./assets/fonts/icons/ogeko-icon-1.0.0.woff2") format("woff2"), url("./assets/fonts/icons/ogeko-icon-1.0.0.woff") format("woff"), url("./assets/fonts/icons/ogeko-icon-1.0.0.ttf") format("truetype"), url("./assets/fonts/icons/ogeko-icon-1.0.0.svg#ogeko-icon-1.0.0") format("svg");
+}
+[class*=ogeko-icon-] {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.ogeko-icon-account:before {
+  content: "";
+}
+
+.ogeko-icon-advanced:before {
+  content: "";
+}
+
+.ogeko-icon-angle-down:before {
+  content: "";
+}
+
+.ogeko-icon-angle-left:before {
+  content: "";
+}
+
+.ogeko-icon-angle-right:before {
+  content: "";
+}
+
+.ogeko-icon-angle-up:before {
+  content: "";
+}
+
+.ogeko-icon-arrow-left:before {
+  content: "";
+}
+
+.ogeko-icon-arrow-right:before {
+  content: "";
+}
+
+.ogeko-icon-award:before {
+  content: "";
+}
+
+.ogeko-icon-basic:before {
+  content: "";
+}
+
+.ogeko-icon-breadcrumb:before {
+  content: "";
+}
+
+.ogeko-icon-build:before {
+  content: "";
+}
+
+.ogeko-icon-business:before {
+  content: "";
+}
+
+.ogeko-icon-call:before {
+  content: "";
+}
+
+.ogeko-icon-check-fill:before {
+  content: "";
+}
+
+.ogeko-icon-clients:before {
+  content: "";
+}
+
+.ogeko-icon-clock:before {
+  content: "";
+}
+
+.ogeko-icon-communication:before {
+  content: "";
+}
+
+.ogeko-icon-compare:before {
+  content: "";
+}
+
+.ogeko-icon-compensation:before {
+  content: "";
+}
+
+.ogeko-icon-compensation1:before {
+  content: "";
+}
+
+.ogeko-icon-culture:before {
+  content: "";
+}
+
+.ogeko-icon-cyber-security:before {
+  content: "";
+}
+
+.ogeko-icon-digital-marketing:before {
+  content: "";
+}
+
+.ogeko-icon-donec:before {
+  content: "";
+}
+
+.ogeko-icon-download-pdf:before {
+  content: "";
+}
+
+.ogeko-icon-envelop2:before {
+  content: "";
+}
+
+.ogeko-icon-experience:before {
+  content: "";
+}
+
+.ogeko-icon-eye:before {
+  content: "";
+}
+
+.ogeko-icon-facebook-f:before {
+  content: "";
+}
+
+.ogeko-icon-flus2:before {
+  content: "";
+}
+
+.ogeko-icon-google-plus-g:before {
+  content: "";
+}
+
+.ogeko-icon-heart-1:before {
+  content: "";
+}
+
+.ogeko-icon-hiring:before {
+  content: "";
+}
+
+.ogeko-icon-indentify:before {
+  content: "";
+}
+
+.ogeko-icon-industry:before {
+  content: "";
+}
+
+.ogeko-icon-innovators:before {
+  content: "";
+}
+
+.ogeko-icon-like:before {
+  content: "";
+}
+
+.ogeko-icon-linkedin-in:before {
+  content: "";
+}
+
+.ogeko-icon-location3:before {
+  content: "";
+}
+
+.ogeko-icon-machine:before {
+  content: "";
+}
+
+.ogeko-icon-management:before {
+  content: "";
+}
+
+.ogeko-icon-misson:before {
+  content: "";
+}
+
+.ogeko-icon-onboarding:before {
+  content: "";
+}
+
+.ogeko-icon-ourstategy:before {
+  content: "";
+}
+
+.ogeko-icon-ourteam:before {
+  content: "";
+}
+
+.ogeko-icon-peaplecohesion:before {
+  content: "";
+}
+
+.ogeko-icon-phone2:before {
+  content: "";
+}
+
+.ogeko-icon-play-solid:before {
+  content: "";
+}
+
+.ogeko-icon-premier:before {
+  content: "";
+}
+
+.ogeko-icon-profile2user:before {
+  content: "";
+}
+
+.ogeko-icon-qoute-2:before {
+  content: "";
+}
+
+.ogeko-icon-quality:before {
+  content: "";
+}
+
+.ogeko-icon-quote1:before {
+  content: "";
+}
+
+.ogeko-icon-ranking:before {
+  content: "";
+}
+
+.ogeko-icon-reply-o:before {
+  content: "";
+}
+
+.ogeko-icon-round-arrow-drop-down:before {
+  content: "";
+}
+
+.ogeko-icon-scale:before {
+  content: "";
+}
+
+.ogeko-icon-shopping-bag:before {
+  content: "";
+}
+
+.ogeko-icon-support2:before {
+  content: "";
+}
+
+.ogeko-icon-survey:before {
+  content: "";
+}
+
+.ogeko-icon-testicon:before {
+  content: "";
+}
+
+.ogeko-icon-web-design:before {
+  content: "";
+}
+
+.ogeko-icon-360:before {
+  content: "";
+}
+
+.ogeko-icon-bars:before {
+  content: "";
+}
+
+.ogeko-icon-caret-down:before {
+  content: "";
+}
+
+.ogeko-icon-caret-left:before {
+  content: "";
+}
+
+.ogeko-icon-caret-right:before {
+  content: "";
+}
+
+.ogeko-icon-caret-up:before {
+  content: "";
+}
+
+.ogeko-icon-cart-empty:before {
+  content: "";
+}
+
+.ogeko-icon-check-square:before {
+  content: "";
+}
+
+.ogeko-icon-circle:before {
+  content: "";
+}
+
+.ogeko-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.ogeko-icon-comment:before {
+  content: "";
+}
+
+.ogeko-icon-comments:before {
+  content: "";
+}
+
+.ogeko-icon-contact:before {
+  content: "";
+}
+
+.ogeko-icon-credit-card:before {
+  content: "";
+}
+
+.ogeko-icon-dot-circle:before {
+  content: "";
+}
+
+.ogeko-icon-edit:before {
+  content: "";
+}
+
+.ogeko-icon-envelope:before {
+  content: "";
+}
+
+.ogeko-icon-expand-alt:before {
+  content: "";
+}
+
+.ogeko-icon-external-link-alt:before {
+  content: "";
+}
+
+.ogeko-icon-file-alt:before {
+  content: "";
+}
+
+.ogeko-icon-file-archive:before {
+  content: "";
+}
+
+.ogeko-icon-filter:before {
+  content: "";
+}
+
+.ogeko-icon-folder-open:before {
+  content: "";
+}
+
+.ogeko-icon-folder:before {
+  content: "";
+}
+
+.ogeko-icon-frown:before {
+  content: "";
+}
+
+.ogeko-icon-gift:before {
+  content: "";
+}
+
+.ogeko-icon-grid:before {
+  content: "";
+}
+
+.ogeko-icon-grip-horizontal:before {
+  content: "";
+}
+
+.ogeko-icon-heart-fill:before {
+  content: "";
+}
+
+.ogeko-icon-heart:before {
+  content: "";
+}
+
+.ogeko-icon-history:before {
+  content: "";
+}
+
+.ogeko-icon-home:before {
+  content: "";
+}
+
+.ogeko-icon-info-circle:before {
+  content: "";
+}
+
+.ogeko-icon-instagram:before {
+  content: "";
+}
+
+.ogeko-icon-level-up-alt:before {
+  content: "";
+}
+
+.ogeko-icon-list:before {
+  content: "";
+}
+
+.ogeko-icon-map-marker-check:before {
+  content: "";
+}
+
+.ogeko-icon-meh:before {
+  content: "";
+}
+
+.ogeko-icon-minus-circle:before {
+  content: "";
+}
+
+.ogeko-icon-minus:before {
+  content: "";
+}
+
+.ogeko-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.ogeko-icon-money-bill:before {
+  content: "";
+}
+
+.ogeko-icon-pencil-alt:before {
+  content: "";
+}
+
+.ogeko-icon-play-circle:before {
+  content: "";
+}
+
+.ogeko-icon-play:before {
+  content: "";
+}
+
+.ogeko-icon-plus-circle:before {
+  content: "";
+}
+
+.ogeko-icon-plus:before {
+  content: "";
+}
+
+.ogeko-icon-quote:before {
+  content: "";
+}
+
+.ogeko-icon-random:before {
+  content: "";
+}
+
+.ogeko-icon-reply-all:before {
+  content: "";
+}
+
+.ogeko-icon-reply:before {
+  content: "";
+}
+
+.ogeko-icon-search-plus:before {
+  content: "";
+}
+
+.ogeko-icon-search:before {
+  content: "";
+}
+
+.ogeko-icon-shield-check:before {
+  content: "";
+}
+
+.ogeko-icon-shopping-basket:before {
+  content: "";
+}
+
+.ogeko-icon-shopping-cart:before {
+  content: "";
+}
+
+.ogeko-icon-sign-out-alt:before {
+  content: "";
+}
+
+.ogeko-icon-smile:before {
+  content: "";
+}
+
+.ogeko-icon-spinner:before {
+  content: "";
+}
+
+.ogeko-icon-square:before {
+  content: "";
+}
+
+.ogeko-icon-star:before {
+  content: "";
+}
+
+.ogeko-icon-store:before {
+  content: "";
+}
+
+.ogeko-icon-sync:before {
+  content: "";
+}
+
+.ogeko-icon-tachometer-alt:before {
+  content: "";
+}
+
+.ogeko-icon-th-large:before {
+  content: "";
+}
+
+.ogeko-icon-th-list:before {
+  content: "";
+}
+
+.ogeko-icon-thumbtack:before {
+  content: "";
+}
+
+.ogeko-icon-ticket:before {
+  content: "";
+}
+
+.ogeko-icon-times-circle:before {
+  content: "";
+}
+
+.ogeko-icon-times:before {
+  content: "";
+}
+
+.ogeko-icon-trophy-alt:before {
+  content: "";
+}
+
+.ogeko-icon-truck:before {
+  content: "";
+}
+
+.ogeko-icon-user-headset:before {
+  content: "";
+}
+
+.ogeko-icon-user-shield:before {
+  content: "";
+}
+
+.ogeko-icon-user:before {
+  content: "";
+}
+
+.ogeko-icon-video:before {
+  content: "";
+}
+
+.ogeko-icon-adobe:before {
+  content: "";
+}
+
+.ogeko-icon-amazon:before {
+  content: "";
+}
+
+.ogeko-icon-android:before {
+  content: "";
+}
+
+.ogeko-icon-angular:before {
+  content: "";
+}
+
+.ogeko-icon-apper:before {
+  content: "";
+}
+
+.ogeko-icon-apple:before {
+  content: "";
+}
+
+.ogeko-icon-atlassian:before {
+  content: "";
+}
+
+.ogeko-icon-behance:before {
+  content: "";
+}
+
+.ogeko-icon-bitbucket:before {
+  content: "";
+}
+
+.ogeko-icon-bitcoin:before {
+  content: "";
+}
+
+.ogeko-icon-bity:before {
+  content: "";
+}
+
+.ogeko-icon-bluetooth:before {
+  content: "";
+}
+
+.ogeko-icon-btc:before {
+  content: "";
+}
+
+.ogeko-icon-centos:before {
+  content: "";
+}
+
+.ogeko-icon-chrome:before {
+  content: "";
+}
+
+.ogeko-icon-codepen:before {
+  content: "";
+}
+
+.ogeko-icon-cpanel:before {
+  content: "";
+}
+
+.ogeko-icon-discord:before {
+  content: "";
+}
+
+.ogeko-icon-dochub:before {
+  content: "";
+}
+
+.ogeko-icon-docker:before {
+  content: "";
+}
+
+.ogeko-icon-dribbble:before {
+  content: "";
+}
+
+.ogeko-icon-dropbox:before {
+  content: "";
+}
+
+.ogeko-icon-drupal:before {
+  content: "";
+}
+
+.ogeko-icon-ebay:before {
+  content: "";
+}
+
+.ogeko-icon-facebook:before {
+  content: "";
+}
+
+.ogeko-icon-figma:before {
+  content: "";
+}
+
+.ogeko-icon-firefox:before {
+  content: "";
+}
+
+.ogeko-icon-google-plus:before {
+  content: "";
+}
+
+.ogeko-icon-google:before {
+  content: "";
+}
+
+.ogeko-icon-grunt:before {
+  content: "";
+}
+
+.ogeko-icon-gulp:before {
+  content: "";
+}
+
+.ogeko-icon-html5:before {
+  content: "";
+}
+
+.ogeko-icon-joomla:before {
+  content: "";
+}
+
+.ogeko-icon-link-brand:before {
+  content: "";
+}
+
+.ogeko-icon-linkedin:before {
+  content: "";
+}
+
+.ogeko-icon-mailchimp:before {
+  content: "";
+}
+
+.ogeko-icon-opencart:before {
+  content: "";
+}
+
+.ogeko-icon-paypal:before {
+  content: "";
+}
+
+.ogeko-icon-pinterest-p:before {
+  content: "";
+}
+
+.ogeko-icon-pinterest:before {
+  content: "";
+}
+
+.ogeko-icon-reddit:before {
+  content: "";
+}
+
+.ogeko-icon-skype:before {
+  content: "";
+}
+
+.ogeko-icon-slack:before {
+  content: "";
+}
+
+.ogeko-icon-snapchat:before {
+  content: "";
+}
+
+.ogeko-icon-spotify:before {
+  content: "";
+}
+
+.ogeko-icon-trello:before {
+  content: "";
+}
+
+.ogeko-icon-twitter:before {
+  content: "";
+}
+
+.ogeko-icon-vimeo:before {
+  content: "";
+}
+
+.ogeko-icon-whatsapp:before {
+  content: "";
+}
+
+.ogeko-icon-wordpress:before {
+  content: "";
+}
+
+.ogeko-icon-yoast:before {
+  content: "";
+}
+
+.ogeko-icon-youtube:before {
+  content: "";
+}
+
+/* ===== End ICONS CSS ===== */
+.editor-styles-wrapper blockquote:before,
+.hentry .entry-content blockquote:before,
+.comment-body blockquote:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  left: 45px;
+  top: 40px;
+  color: var(--e-global-color-accent);
+  font-size: 45px;
+  font-size: 2.8125rem;
+}
+@media (max-width: 567px) {
+  .editor-styles-wrapper blockquote:before,
+.hentry .entry-content blockquote:before,
+.comment-body blockquote:before {
+    left: 10px;
+    top: 10px;
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+.editor-styles-wrapper blockquote.has-text-align-right,
+.hentry .entry-content blockquote.has-text-align-right,
+.comment-body blockquote.has-text-align-right {
+  border-right: 1px solid var(--e-global-color-border);
+  padding-right: 135px;
+  border-left: 1px solid var(--e-global-color-border);
+}
+.editor-styles-wrapper blockquote.has-text-align-right:before,
+.hentry .entry-content blockquote.has-text-align-right:before,
+.comment-body blockquote.has-text-align-right:before {
+  left: unset;
+  right: 45px;
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.editor-styles-wrapper .wp-block-pullquote blockquote,
+.hentry .entry-content .wp-block-pullquote blockquote,
+.comment-body .wp-block-pullquote blockquote {
+  padding: 0;
+}
+.editor-styles-wrapper .wp-block-pullquote blockquote:before,
+.hentry .entry-content .wp-block-pullquote blockquote:before,
+.comment-body .wp-block-pullquote blockquote:before {
+  content: none;
+}
+.editor-styles-wrapper .wp-block-column blockquote,
+.hentry .entry-content .wp-block-column blockquote,
+.comment-body .wp-block-column blockquote {
+  padding: 40px 20px 37px 80px;
+}
+.editor-styles-wrapper .wp-block-column blockquote:before,
+.hentry .entry-content .wp-block-column blockquote:before,
+.comment-body .wp-block-column blockquote:before {
+  font-size: 35px;
+  left: 20px;
+}
+
+.ogeko-social ul {
+  margin: 0;
+  list-style-type: none;
+}
+.ogeko-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1;
+}
+.ogeko-social ul li:last-child {
+  margin-right: 0;
+}
+.ogeko-social ul li a:before {
+  position: relative;
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.ogeko-social ul li a[href*=twitter]:before {
+  content: "";
+  color: #1DA1F2;
+}
+.ogeko-social ul li a[href*=instagram]:before {
+  content: "";
+  color: #262626;
+}
+.ogeko-social ul li a[href*=docker]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=dochub]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=yelp]:before {
+  content: "";
+  color: #af0606;
+}
+.ogeko-social ul li a[href*=flickr]:before {
+  content: "";
+  color: #0063dc;
+}
+.ogeko-social ul li a[href*=github]:before {
+  content: "";
+  color: #333333;
+}
+.ogeko-social ul li a[href*=dribbble]:before {
+  content: "";
+  color: #ea4c89;
+}
+.ogeko-social ul li a[href*=wordpress]:before {
+  content: "";
+  color: #21759b;
+}
+.ogeko-social ul li a[href*=tumblr]:before {
+  content: "";
+  color: #35465c;
+}
+.ogeko-social ul li a[href*=angular]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=atlassian]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=snapchat]:before {
+  content: "";
+  color: #fffc00;
+}
+.ogeko-social ul li a[href*=apper]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=codepen]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=gulp]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=cpanel]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=skype]:before {
+  content: "";
+  color: #00AFF0;
+}
+.ogeko-social ul li a[href*=reddit]:before {
+  content: "";
+  color: #ff4500;
+}
+.ogeko-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=slack]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=amazon]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=android]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=grunt]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=firefox]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=adobe]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=behance]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=dropbox]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=facebook]:before {
+  content: "";
+  color: #3b5998;
+}
+.ogeko-social ul li a[href*=linkedin]:before {
+  content: "";
+  color: #0077b5;
+}
+.ogeko-social ul li a[href*=paypal]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=trello]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.ogeko-social ul li a[href*=youtube]:before {
+  content: "";
+  color: #cd201f;
+}
+.ogeko-social ul li a[href*=apple]:before {
+  content: "";
+  color: #999999;
+}
+.ogeko-social ul li a[href*=bitbucket]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=bitcoin]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=bluetooth]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=bity]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*="google/chrome"]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=drupal]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=html5]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=mailchimp]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=jenkins]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=spotify]:before {
+  content: "";
+  color: #2ebd59;
+}
+.ogeko-social ul li a[href*=ebay]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=telegram]:before {
+  content: "";
+  color: #2CA5E0;
+}
+.ogeko-social ul li a[href*=yoast]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=btc-e]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=discord]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=google]:before {
+  content: "";
+  color: #dd4b39;
+}
+.ogeko-social ul li a[href*=google-plus]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=figma]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=joomla]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=opencart]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=pinterest]:before {
+  content: "";
+  color: #bd081c;
+}
+.ogeko-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.ogeko-social ul li a[href*=centos]:before {
+  content: "";
+}
+.ogeko-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+
+#comments .comment-list .bypostauthor > .comment-body cite::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407911001em;
+}
+#comments .comment-list .reply a::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+#comments .comment-list .reply a.comment-edit-link::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#respond #cancel-comment-reply-link::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+
+blockquote p {
+  z-index: 1;
+}
+blockquote p:first-child:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -60px;
+  top: 0px;
+  color: var(--e-global-color-primary);
+  font-size: 30px;
+}
+
+.elementor-testimonial-item-wrapper .layout-4 .testimonial-caption:after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  right: 0;
+  color: #E5E5E5;
+  font-size: 40px;
+}
+
+.sticky .entry-title::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+}
+
+button.loading,
+input[type=button].loading,
+input[type=reset].loading,
+input[type=submit].loading,
+.button.loading,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link.loading,
+.added_to_cart.loading {
+  position: relative;
+}
+button.loading::after,
+input[type=button].loading::after,
+input[type=reset].loading::after,
+input[type=submit].loading::after,
+.button.loading::after,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link.loading::after,
+.added_to_cart.loading::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+
+.shop-action .blockUI.blockOverlay:before,
+.shop-action .loader:before {
+  top: 50%;
+  left: 50%;
+  opacity: 1 !important;
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  position: absolute;
+  display: block !important;
+  margin-left: -10px;
+  margin-top: -10px;
+  color: #000;
+}
+
+.shop-action .blockUI.blockOverlay {
+  opacity: 1 !important;
+  overflow: hidden;
+  background-image: none !important;
+  background: #fff !important;
+}
+
+.main-navigtion ul li a::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+}
+
+.mobile-navigation ul li button::after, .mobile-navigation-categories ul li button::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.mobile-navigation ul li button.toggled-on::after, .mobile-navigation-categories ul li button.toggled-on::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_search form::before, .site-search form::before,
+.widget_product_search form::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translate(0, -50%);
+  z-index: 1;
+  color: var(--e-global-color-dark);
+}
+
+.elementor-widget-ogeko-image-gallery .column-item a:after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "+";
+}
+
+.stock::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407911001em;
+}
+.stock.in-stock::before {
+  content: "";
+}
+
+.content-area .ogeko-dropdown-filter-wrap .widget_layered_nav ul {
+  margin-left: 0;
+}
+.content-area .ogeko-dropdown-filter-wrap .widget_layered_nav ul li {
+  padding-left: 1.618em;
+}
+.content-area .ogeko-dropdown-filter-wrap .widget_layered_nav ul li::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407911001em;
+  display: block;
+  float: left;
+  opacity: 0.35;
+  margin-left: -1.618em;
+  width: 1em;
+}
+.content-area .ogeko-dropdown-filter-wrap .widget_layered_nav ul li .children {
+  margin-left: 0;
+}
+.content-area .ogeko-dropdown-filter-wrap .widget_layered_nav li::before {
+  content: "";
+}
+.content-area .ogeko-dropdown-filter-wrap .widget_layered_nav .chosen::before {
+  content: "";
+}
+
+.ogeko-canvas-filter .ogeko-canvas-filter-wrap .widget_layered_nav ul {
+  margin-left: 0;
+}
+.ogeko-canvas-filter .ogeko-canvas-filter-wrap .widget_layered_nav ul li {
+  padding-left: 1.618em;
+}
+.ogeko-canvas-filter .ogeko-canvas-filter-wrap .widget_layered_nav ul li::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407911001em;
+  display: block;
+  float: left;
+  opacity: 0.35;
+  margin-left: -1.618em;
+  width: 1em;
+}
+.ogeko-canvas-filter .ogeko-canvas-filter-wrap .widget_layered_nav ul li .children {
+  margin-left: 0;
+}
+.ogeko-canvas-filter .ogeko-canvas-filter-wrap .widget_layered_nav li::before {
+  content: "";
+}
+.ogeko-canvas-filter .ogeko-canvas-filter-wrap .widget_layered_nav .chosen::before {
+  content: "";
+}
+
+a.remove {
+  display: block;
+  width: 1.618em;
+  height: 1.618em;
+  line-height: 1.618;
+  font-weight: 400;
+  text-indent: -9999px;
+  position: relative;
+}
+a.remove::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #858585;
+  line-height: 1.618;
+  text-indent: 0;
+  text-align: center;
+}
+
+.blockUI::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+#shipping_method li > label {
+  cursor: pointer;
+}
+#shipping_method li > label::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407911001em;
+  transition: color, ease, 0.2s;
+}
+#shipping_method li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+#shipping_method li > input[type=radio]:first-child:checked + label::after {
+  font-weight: 700;
+  content: "";
+}
+
+#payment .payment_methods li > label {
+  cursor: pointer;
+}
+#payment .payment_methods li > label::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+  transition: color, ease, 0.2s;
+}
+#payment .payment_methods li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+#payment .payment_methods li > input[type=radio]:first-child:checked + label::before {
+  font-weight: 700;
+  content: "";
+}
+
+.my_account_orders .button.view::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407911001em;
+}
+
+p.order-again .button::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407911001em;
+}
+
+/**
+ * Composite Products
+ */
+.single-product div.product .component_selections .clear_component_options::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+}
+
+/**
+ * Mix and Match
+ */
+.cart .mnm_table_item .mnm_table_item_indent::before,
+.shop_table .mnm_table_item .mnm_table_item_indent::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  transform: rotate(90deg);
+  margin-right: 0.3819820591em;
+  opacity: 0.25;
+}
+
+/**
+ * Quick view
+ */
+.quick-view-button::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.6180469716em;
+}
+
+/**
+ * Variation Swatches
+ */
+a#variations_clear::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+}
+
+/**
+ * Wishlists
+ */
+.wl-add-link::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+}
+
+.button.wl-create-new::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407911001em;
+}
+
+.site-header-cart .cart-contents::before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+@media (min-width: 768px) {
+  .main-navigation ul.menu > li.menu-item-has-children > a:after, .main-navigation ul.menu > li.page_item_has_children > a:after, .main-navigation ul.menu > li.has-mega-menu > a:after,
+.main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 3px;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .gecko .main-navigation ul.menu > li.menu-item-has-children > a:after, .gecko .main-navigation ul.menu > li.page_item_has_children > a:after, .gecko .main-navigation ul.menu > li.has-mega-menu > a:after,
+.gecko .main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.gecko .main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.gecko .main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    margin-bottom: 5px;
+    vertical-align: middle;
+  }
+
+  .header-side .main-navigation ul.menu > li.menu-item-has-children > a::after, .header-side .main-navigation ul.menu > li.page_item_has_children > a::after, .header-side .main-navigation ul.menu > li.has-mega-menu > a::after,
+.header-side .main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.header-side .main-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.header-side .main-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 1em;
+    margin-right: -25px;
+  }
+
+  .vertical-navigation ul.menu > li.menu-item-has-children > a::after, .vertical-navigation ul.menu > li.page_item_has_children > a::after, .vertical-navigation ul.menu > li.has-mega-menu > a::after,
+.vertical-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.vertical-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.vertical-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: auto;
+    float: right;
+  }
+
+  .elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.menu > li.menu-item-has-children > a::after, .elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.menu > li.page_item_has_children > a::after, .elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.menu > li.has-mega-menu > a::after,
+.elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: auto;
+    float: right;
+  }
+  .elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.menu > li.menu-item-has-children:last-child > a::after, .elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.menu > li.page_item_has_children:last-child > a::after, .elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.menu > li.has-mega-menu:last-child > a::after,
+.elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.nav-menu > li.menu-item-has-children:last-child > a::after,
+.elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.nav-menu > li.page_item_has_children:last-child > a::after,
+.elementor-widget-ogeko-vertiacl-menu .style-2 .vertical-navigation ul.nav-menu > li.has-mega-menu:last-child > a::after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: auto;
+    float: right;
+  }
+
+  .main-navigation ul.menu ul li.menu-item-has-children > a::after, .main-navigation ul.menu ul li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    float: right;
+    margin-left: 10px;
+    line-height: 1.5;
+  }
+
+  .addresses header.title a {
+    display: block;
+    width: 1em;
+    height: 1em;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0.875em;
+    margin-top: 0.6180469716em;
+  }
+  .addresses header.title a::before {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    line-height: 1.618;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  /**
+   * Wishlists
+   */
+  #wl-wrapper .wl-tabs > li.active::after {
+    font-family: "ogeko-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+  }
+}
+ul.wishlist_table.mobile .remove_from_wishlist:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.arrow-style-3 .slick-prev:before {
+  content: "";
+}
+.arrow-style-3 .slick-next:before {
+  content: "";
+}
+
+.slick-prev:before {
+  content: "";
+}
+[dir=rtl] .slick-prev:before {
+  content: "";
+}
+
+.slick-next:before {
+  content: "";
+}
+[dir=rtl] .slick-next:before {
+  content: "";
+}
+
+.ogeko-language-switcher li.item span.title:after {
+  position: relative;
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  margin-top: -1px;
+}
+
+body.loading {
+  position: relative;
+}
+body.loading::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: block;
+  z-index: 999999;
+  color: #fff;
+}
+body.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999998;
+}
+
+h2.resp-accordion:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 10px;
+}
+h2.resp-accordion.active:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_product_categories .icon-minus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.widget_product_categories .icon-minus:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 14px;
+}
+.widget_product_categories .icon-plus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.widget_product_categories .icon-plus:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 14px;
+}
+
+.shop-action a[class*=product_type_]:before {
+  content: "";
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: -4px;
+}
+
+.widget_product_brands ul li .count,
+.widget_product_categories ul li .count {
+  font-weight: 400;
+  color: var(--text_lighter);
+}
+.widget_product_brands ul li a,
+.widget_product_categories ul li a {
+  color: var(--e-global-color-accent);
+}
+.widget_product_brands ul li a:hover,
+.widget_product_categories ul li a:hover {
+  color: var(--e-global-color-primary);
+}
+.widget_product_brands ul li a:hover:before,
+.widget_product_categories ul li a:hover:before {
+  background-color: var(--e-global-color-primary);
+}
+.widget_product_brands ul li a:before,
+.widget_product_categories ul li a:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+  background-color: #DBDEE7;
+}
+.widget_product_brands ul li.current-cat a,
+.widget_product_categories ul li.current-cat a {
+  color: var(--e-global-color-primary);
+}
+.widget_product_brands ul li.current-cat a:before,
+.widget_product_categories ul li.current-cat a:before {
+  background-color: var(--e-global-color-primary);
+}
+
+.shop-action .woosc-btn:before,
+.shop-action .woosq-btn:before,
+.shop-action .woosw-btn:before,
+.shop-action a[class*=product_type_]:before, .product-list .woosc-btn:before,
+.product-list .woosq-btn:before,
+.product-list .woosw-btn:before,
+.product-list a[class*=product_type_]:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.shop-action .woosw-btn:before, .product-list .woosw-btn:before {
+  content: "";
+}
+.shop-action .woosw-btn.woosw-added:before, .product-list .woosw-btn.woosw-added:before {
+  content: "";
+  color: red;
+  margin-right: 0;
+}
+.shop-action .woosw-btn.woosw-adding::after, .product-list .woosw-btn.woosw-adding::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+  transform: translate(0);
+}
+.shop-action .woosw-btn.woosw-adding:before, .product-list .woosw-btn.woosw-adding:before {
+  opacity: 0;
+}
+.shop-action .woosc-btn:before, .product-list .woosc-btn:before {
+  content: "";
+}
+.shop-action .woosq-btn:before, .product-list .woosq-btn:before {
+  content: "";
+}
+
+.single-product div.product .entry-summary .woosc-btn:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: inherit;
+}
+.single-product div.product .entry-summary .woosw-btn:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: inherit;
+}
+.single-product div.product .entry-summary .woosw-btn.woosw-added:before {
+  content: "";
+}
+
+.loading-quick-shop .product-transition::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.search-by-category .input-dropdown-inner > a:after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+div[class*=post-style-] .entry-content > a:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+h2.resp-accordion:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 10px;
+}
+h2.resp-accordion.active:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+a.read-more:after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+}
+
+.elementor-widget-ogeko-language-switcher.language-switcher-style-mobile .ogeko-language-switcher .language-switcher-head:after {
+  position: relative;
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  line-height: 12px;
+}
+
+.popup-navigation ul.menu > li.menu-item-has-children > a:after, .popup-navigation ul.menu > li.page_item_has_children > a:after, .popup-navigation ul.menu > li.has-mega-menu > a:after,
+.popup-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.popup-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.popup-navigation ul.nav-menu > li.has-mega-menu > a:after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  font-size: 16px;
+}
+
+.popup-navigation ul.menu ul li.menu-item-has-children > a::after, .popup-navigation ul.menu ul li.page_item_has_children > a::after,
+.popup-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.popup-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  float: right;
+  margin-left: 0.5em;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.elementor-testimonial-item-wrapper .layout-3 .testimonial-caption:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.single-product div.product .single_add_to_cart_button:after {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.timeline-description ul li:before {
+  font-family: "ogeko-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/*# sourceMappingURL=icons.css.map */
