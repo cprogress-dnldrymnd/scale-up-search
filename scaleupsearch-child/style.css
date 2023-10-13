@@ -22,7 +22,8 @@ Text Domain:	 scaleupsearch-child
 .form-style-border-yes .wpcf7 textarea,
 .form-style-border-yes .wpcf7 select {
   border-radius: 12px;
-  padding: 10px 18px; }
+  padding: 10px 18px;
+  border-color: #F2F3F2; }
   .form-style-border-yes .wpcf7 input:not([type="submit"])::placeholder,
   .form-style-border-yes .wpcf7 input[type="date"]::placeholder,
   .form-style-border-yes .wpcf7 textarea::placeholder,
