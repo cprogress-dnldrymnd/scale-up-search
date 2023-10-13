@@ -7,16 +7,27 @@ Version:		 1.0.0
 Text Domain:	 scaleupsearch-child
 */
 
-
 /*
     Add your custom styles here
 */
 
-.elementor-widget-ogeko-heading .elementor-heading-title, .elementor-widget-ogeko-heading .elementor-heading-title a {
+.elementor-widget-ogeko-heading .elementor-heading-title,
+.elementor-widget-ogeko-heading .elementor-heading-title a {
     line-height: 1.2;
     letter-spacing: 0;
 }
 
 .service-style-3 .service-post-thumbnail img {
     width: 100%;
+}
+
+.form-style-border-yes .wpcf7 input:not([type="submit"]),
+.form-style-border-yes .wpcf7 input[type="date"],
+.form-style-border-yes .wpcf7 textarea,
+.form-style-border-yes .wpcf7 select {
+    border-radius: 12px;
+    padding: 10px 18px;
+    &::placeholder {
+        color: #6C6C6C;
+    }
 }
