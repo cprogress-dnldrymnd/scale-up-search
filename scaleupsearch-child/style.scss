@@ -81,9 +81,6 @@ Text Domain:	 scaleupsearch-child
                         & + .wpcf7-list-item-label {
                             &:before {
                                 background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231B164B" class="bi bi-check" viewBox="0 0 16 16"><path fill="%231B164B" d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>');
-                                background-size: 20px;
-                                background-position: center;
-                                background-repeat: no-repeat;
                             }
                         }
                     }
@@ -99,6 +96,10 @@ Text Domain:	 scaleupsearch-child
                         display: inline-block;
                         background-color: #e0f2e7;
                         margin-right: 20px;
+                        border-radius: 3px;
+                        background-size: 20px;
+                        background-position: center;
+                        background-repeat: no-repeat;
                     }
                 }
             }
