@@ -34,6 +34,9 @@ Text Domain:	 scaleupsearch-child
 }
 
 .wpcf7 {
+    br {
+        display: none;
+    }
     .wpcf7-radio {
         .wpcf7-list-item {
             margin: 0;

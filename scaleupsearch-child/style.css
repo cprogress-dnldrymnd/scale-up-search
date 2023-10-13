@@ -30,6 +30,8 @@ Text Domain:	 scaleupsearch-child
   .form-style-border-yes .wpcf7 select::placeholder {
     color: #6c6c6c !important; }
 
+.wpcf7 br {
+  display: none; }
 .wpcf7 .wpcf7-radio .wpcf7-list-item {
   margin: 0; }
   .wpcf7 .wpcf7-radio .wpcf7-list-item label {
