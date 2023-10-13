@@ -45,5 +45,7 @@ Text Domain:	 scaleupsearch-child
       border-radius: 8px;
       color: var(--e-global-color-secondary);
       display: inline-block; }
+  .wpcf7 .wpcf7-radio .wpcf7-list-item:not(:last-child) {
+    margin-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
