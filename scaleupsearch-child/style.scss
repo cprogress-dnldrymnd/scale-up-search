@@ -27,8 +27,30 @@ Text Domain:	 scaleupsearch-child
 .form-style-border-yes .wpcf7 select {
     border-radius: 12px;
     padding: 10px 18px;
-    border-color: #F2F3F2;
+    border-color: #f2f3f2;
     &::placeholder {
-        color: #6C6C6C !important;
+        color: #6c6c6c !important;
+    }
+}
+
+.wpcf7 {
+    .wpcf7-radio {
+        .wpcf7-list-item {
+            input {
+                &:checked {
+                    & + .wpcf7-list-item-label {
+                        background-color: var(--e-global-color-secondary);
+                        color: #fff;
+                    }
+                }
+            }
+            .wpcf7-list-item-label {
+                background-color: #f2f3f2;
+                padding: 11px 30px;
+                border-radius: 8px;
+                color: var(--e-global-color-secondary);
+                display: inline-block;
+            }
+        }
     }
 }
