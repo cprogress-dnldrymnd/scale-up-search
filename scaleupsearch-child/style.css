@@ -40,6 +40,7 @@ Text Domain:	 scaleupsearch-child
         background-color: var(--e-global-color-secondary);
         color: #fff; }
     .wpcf7 .wpcf7-radio .wpcf7-list-item label .wpcf7-list-item-label {
+      cursor: pointer;
       background-color: #f2f3f2;
       padding: 11px 30px;
       border-radius: 8px;
