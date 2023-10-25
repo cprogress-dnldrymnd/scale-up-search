@@ -1,5 +1,5 @@
 <main class="site-main">
-    dsdsdsds
+    <?= do_shortcode("[hfe_template id='12273']") ?>
     <div class="container clearfix">
         <?php if (apply_filters('ogeko_page_title', true)) : ?>
             <header class="page-header text-center">
@@ -32,4 +32,5 @@
             ?>
         </div>
     </div>
+    <?= do_shortcode("[hfe_template id='12267']") ?>
 </main>
