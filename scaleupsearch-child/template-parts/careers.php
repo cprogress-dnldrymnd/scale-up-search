@@ -26,59 +26,27 @@ $main_query = get_queried_object();
                                             <svg class="fa-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
                                                 <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
                                             </svg>
-                                            <span> Job Description </span>
+                                            <span> <?php the_title() ?></span>
                                         </button>
                                     </h2>
                                     <div id="collapse<?= get_the_ID() . '-description'  ?>" class="accordion-collapse collapse" aria-labelledby="heading<?= get_the_ID() . '-description'  ?>" data-bs-parent="#accordion-Careers">
                                         <div class="accordion-body">
                                             <?php the_content() ?>
-                                        </div>
-                                    </div>
-                                    <?php foreach ($accordion as $key => $acc) { ?>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="heading<?= get_the_ID() . '-' . $key ?>">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?= get_the_ID() . '-' . $key ?>" aria-expanded="false" aria-controls="collapse<?= get_the_ID() . '-' . $key ?>">
-                                                    <svg class="fa-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                                                    </svg>
-                                                    <svg class="fa-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
-                                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
-                                                    </svg>
-                                                    <span> <?= $acc['accordion_title'] ?></span>
-                                                </button>
-                                            </h2>
-                                            <div id="collapse<?= get_the_ID() . '-' . $key ?>" class="accordion-collapse collapse" aria-labelledby="heading<?= get_the_ID() . '-' . $key ?>" data-bs-parent="#accordion-Careers">
-                                                <div class="accordion-body">
-                                                    <?= wpautop($acc['accordion_content']) ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php } ?>
 
-                                </div>
-
-                                <div class="career-holder background-white post-item">
-                                    <div class="inner">
-                                        <div class="header">
-                                            <div class="career-title w-100 align-center d-flex align-items-center justify-content-between">
-                                                <h3><?php the_title() ?></h3>
-                                                <span class="salary">£ <?= $salary ?></span>
-                                            </div>
-                                        </div>
-                                        <div class="body">
-                                            <div class="career-description d-none d-sm-block">
-                                                <?php the_content() ?>
-                                            </div>
-
-                                        </div>
-                                        <div class="footer">
-                                            <div class="sc_item_button sc_button_wrap">
-                                                <button data-title="<?php the_title() ?>" data-bs-toggle="modal" data-bs-target="#applyModal" class="sc_button  sc_button_size_normal sc_button_icon_left color_style_link3">
-                                                    <span class="sc_button_text"><span class="sc_button_title">Apply Now</span></span>
-                                                </button>
+                                            <div class="elementor-button-wrapper">
+                                                <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button" data-title="<?php the_title() ?>" data-bs-toggle="modal" data-bs-target="#applyModal">
+                                                    <span class="elementor-button-content-wrapper">
+                                                        <span class="elementor-button-icon left">
+                                                            <i aria-hidden="true" class="ogeko-icon- ogeko-icon-arrow-right"></i> </span>
+                                                        <span class="elementor-button-text">Apply</span>
+                                                        <span class="elementor-button-icon right">
+                                                            <i aria-hidden="true" class="ogeko-icon- ogeko-icon-arrow-right"></i> </span>
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             <?php } ?>
 
