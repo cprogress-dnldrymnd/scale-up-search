@@ -13,9 +13,7 @@ $main_query = get_queried_object();
                             while (have_posts()) {
                                 the_post(); ?>
                                 <?php
-                                $postterms = get_the_terms(get_the_ID(), 'location');
-                                $salary = carbon_get_the_post_meta('salary');
-                                $accordion = carbon_get_the_post_meta('accordion');
+                                $location = get_the_terms(get_the_ID(), 'location');
                                 ?>
                                 <div class="accordion-item d-block d-sm-none">
                                     <h2 class="accordion-header" id="heading<?= get_the_ID() . '-description'  ?>">
@@ -31,6 +29,11 @@ $main_query = get_queried_object();
                                     </h2>
                                     <div id="collapse<?= get_the_ID() . '-description'  ?>" class="accordion-collapse collapse" aria-labelledby="heading<?= get_the_ID() . '-description'  ?>" data-bs-parent="#accordion-Careers">
                                         <div class="accordion-body">
+
+                                            <p class="work-location">
+                                                <strong>Work Location: </strong> <?= $location ?>
+                                            </p>
+
                                             <?php the_content() ?>
 
                                             <div class="elementor-button-wrapper">
