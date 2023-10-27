@@ -153,7 +153,7 @@ new newPostType(array(
 	'hierarchical' => true,
 ));
 
-
+/*
 new newTaxonomy(array(
 	'taxonomy'=> 'careers-category',
 	'post_type'=> 'careers',
@@ -164,4 +164,4 @@ new newTaxonomy(array(
 		'has_archive' => true,
 		'rewrite' => array('slug' => 'careers-category')
 	)
-));
+));*/
