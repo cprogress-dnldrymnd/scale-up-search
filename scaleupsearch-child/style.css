@@ -207,7 +207,8 @@ html.overflow-hidden.overflow-hidden {
   overflow: hidden !important; }
 
 .accordion-careers {
-  padding-top: 40px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .accordion-careers .accordion-item {
     border-radius: 32px;
     border: none;
