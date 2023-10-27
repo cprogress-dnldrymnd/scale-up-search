@@ -435,7 +435,7 @@ html {
         background-color: var(--white-color);
         overflow: hidden;
         .accordion-body {
-            color: #1B164B;
+            color: #1b164b;
             font-size: 20px;
             .work-location {
                 font-size: 25px;
@@ -446,11 +446,12 @@ html {
             ul {
                 list-style: none;
                 padding: 0;
+                margin: 0;
                 li {
                     display: flex;
                     align-items: center;
                     &:before {
-                        content: '';
+                        content: "";
                         width: 15px;
                         height: 15px;
                         flex: 0 0 15px;
@@ -459,13 +460,15 @@ html {
                     }
                 }
             }
+            .elementor-button-wrapper {
+                margin-top: 30px;
+            }
         }
         .accordion-header {
-       
             svg {
                 width: 30px;
                 height: 30px;
-                color: #42C697;
+                color: #42c697;
                 margin-right: 30px;
             }
             .accordion-button {
@@ -473,7 +476,7 @@ html {
                 border: none;
                 background-color: transparent;
                 font-size: 31px;
-                color: #1B164B;
+                color: #1b164b;
                 text-transform: initial;
                 &[aria-expanded="true"] {
                     .fa-plus {

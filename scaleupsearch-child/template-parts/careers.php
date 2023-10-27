@@ -41,7 +41,7 @@ $main_query = get_queried_object();
                                                     <span class="elementor-button-content-wrapper">
                                                         <span class="elementor-button-icon left">
                                                             <i aria-hidden="true" class="ogeko-icon- ogeko-icon-arrow-right"></i> </span>
-                                                        <span class="elementor-button-text">Apply</span>
+                                                        <span class="elementor-button-text">APPLY NOW</span>
                                                         <span class="elementor-button-icon right">
                                                             <i aria-hidden="true" class="ogeko-icon- ogeko-icon-arrow-right"></i> </span>
                                                     </span>
