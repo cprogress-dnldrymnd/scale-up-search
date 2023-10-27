@@ -1,33 +1,10 @@
 <?php
-$terms = _get_terms_details('careers-category');
 $main_query = get_queried_object();
 ?>
 <main id="main">
     <section class="careers-archive background-light">
         <div class="container container wide w-960">
-            <div class="head">
-                <?= do_shortcode('[trx_sc_layouts layout="22454"]') ?>
-            </div>
-            <?php if ($terms) { ?>
-                <div class="category-wrapper text-center">
-
-                    <div class="inner d-inline-block">
-                        <a class="<?= is_post_type_archive() ? 'selected' : '' ?>" href="<?= get_post_type_archive_link('careers') ?>">
-                            All
-                        </a>
-                        <?php foreach ($terms as $key => $term) { ?>
-                            <?php
-                            if ($main_query->term_id == $key) {
-                                $selected = 'selected';
-                            } else {
-                                $selected = '';
-                            }
-                            ?>
-                            <a class="<?= $selected ?>" href="<?= get_term_link($key) ?>"> <?= $term['name'] ?> </a>
-                        <?php } ?>
-                    </div>
-                </div>
-            <?php } ?>
+          
             <div id="results">
                 <div class="results-holder">
                     <div class="career-wrapper">
