@@ -206,31 +206,33 @@ Text Domain:	 scaleupsearch-child
 html.overflow-hidden.overflow-hidden {
   overflow: hidden !important; }
 
-.accordion-careers .accordion-item {
-  border-radius: 32px;
-  border: none;
-  background-color: var(--white-color);
-  overflow: hidden; }
-  .accordion-careers .accordion-item .accordion-header {
-    font-size: 31px; }
-    .accordion-careers .accordion-item .accordion-header svg {
-      width: 30px;
-      height: 30px;
-      color: #42C697; }
-    .accordion-careers .accordion-item .accordion-header .accordion-button {
-      box-shadow: none;
-      border: none;
-      background-color: transparent; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
-        display: none; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
-        display: inline-block; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
-        display: inline-block; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
-        display: none; }
-  .accordion-careers .accordion-item:not(:last-child) {
-    margin-bottom: 35px; }
+.accordion-careers {
+  padding-top: 40px; }
+  .accordion-careers .accordion-item {
+    border-radius: 32px;
+    border: none;
+    background-color: var(--white-color);
+    overflow: hidden; }
+    .accordion-careers .accordion-item .accordion-header {
+      font-size: 31px; }
+      .accordion-careers .accordion-item .accordion-header svg {
+        width: 30px;
+        height: 30px;
+        color: #42C697; }
+      .accordion-careers .accordion-item .accordion-header .accordion-button {
+        box-shadow: none;
+        border: none;
+        background-color: transparent; }
+        .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
+          display: none; }
+        .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
+          display: inline-block; }
+        .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
+          display: inline-block; }
+        .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
+          display: none; }
+    .accordion-careers .accordion-item:not(:last-child) {
+      margin-bottom: 35px; }
 
 .post-type-archive-careers #content {
   background-color: #f4f5f5; }
