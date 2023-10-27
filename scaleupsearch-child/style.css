@@ -283,5 +283,8 @@ html.overflow-hidden.overflow-hidden {
 .post-type-archive-careers #content {
   background-color: #f4f5f5;
   margin-bottom: 0; }
+.post-type-archive-careers .col-full {
+  max-width: 100%;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
