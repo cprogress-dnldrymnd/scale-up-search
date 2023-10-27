@@ -331,8 +331,9 @@ Text Domain:	 scaleupsearch-child
             border: none;
             border-radius: 0;
             overflow-y: auto;
-            overflow-x: hidden;
+            overflow-x: hbidden;
             padding: 11%;
+            background-color: #f4f5f5;
             .modal-header,
             .modal-body {
                 padding: 0;
