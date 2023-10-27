@@ -2,6 +2,11 @@
 
 function breadcrumbs() {
     ob_start();
+    if(is_archive()) {
+        $title = get_queried_object()->name;
+    } else {
+        $title = get_the_title();
+    }
     ?>
     <div class="breadcrumbs">
         <ul>
@@ -9,7 +14,7 @@ function breadcrumbs() {
                 <a href="<?= get_site_url() ?>">Home</a>
             </li>
             <li>
-                <span href=""><?= get_the_title() ?></span>
+                <span href=""><?= $title ?></span>
             </li>
         </ul>
     </div>
