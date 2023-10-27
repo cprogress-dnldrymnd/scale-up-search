@@ -15,7 +15,7 @@ $main_query = get_queried_object();
                                 <?php
                                 $location = get_the_terms(get_the_ID(), 'location');
                                 ?>
-                                <div class="accordion-item d-block d-sm-none">
+                                <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading<?= get_the_ID() . '-description'  ?>">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?= get_the_ID() . '-description'  ?>" aria-expanded="false" aria-controls="collapse<?= get_the_ID() . '-description'  ?>">
                                             <svg class="fa-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
