@@ -85,11 +85,15 @@ Text Domain:	 scaleupsearch-child
   list-style: none;
   padding: 0;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 0; }
   .breadcrumbs ul li a,
   .breadcrumbs ul li span {
-    color: var(--white-color); }
+    color: var(--white-color);
+    font-size: 12px;
+    text-transform: uppercase; }
   .breadcrumbs ul li:not(:last-child):after {
+    content: '';
     width: 9px;
     height: 2px;
     background-color: var(--white-color);
