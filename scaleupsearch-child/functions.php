@@ -6,3 +6,14 @@ function scaleupsearch_child_enqueue_styles()
 }
 
 require_once('includes/shortcodes.php');
+/*-----------------------------------------------------------------------------------*/
+/* Register Carbofields
+/*-----------------------------------------------------------------------------------*/
+add_action('carbon_fields_register_fields', 'tissue_paper_register_custom_fields');
+function tissue_paper_register_custom_fields()
+{
+	require_once('includes/post-meta.php');
+}
+
+
+require_once('includes/post-types.php');
