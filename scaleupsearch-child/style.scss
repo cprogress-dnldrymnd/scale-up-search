@@ -10,7 +10,148 @@ Text Domain:	 scaleupsearch-child
 /*
     Add your custom styles here
 */
+@mixin inputs {
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="password"],
+    input[type="file"],
+    span.fake-input,
+    select,
+    textarea {
+        @content;
+    }
+}
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == "xxxs" {
+        @media screen and (max-width: 360px) {
+            @content;
+        }
+    }
+    @if $breakpoint == "xxs" {
+        @media screen and (max-width: 480px) {
+            @content;
+        }
+    }
+    @if $breakpoint == "mobile" {
+        @media screen and (max-width: 575px) {
+            @content;
+        }
+    }
 
+    @if $breakpoint == "mobile-xs" {
+        @media (min-width: 576px) and (max-width: 767px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "mobile-sm" {
+        @media (min-width: 576px) and (max-width: 991px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "mobile-md" {
+        @media (min-width: 576px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "mobile-lg" {
+        @media (min-width: 576px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "xs" {
+        @media screen and (max-width: 767px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "xs-sm" {
+        @media screen and (max-width: 991px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "xs-md" {
+        @media screen and (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "sm" {
+        @media (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "sm-lg" {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "sm-md" {
+        @media (min-width: 768px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "md" {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "md-lg" {
+        @media screen and (min-width: 992px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "lg" {
+        @media screen and (min-width: 1200px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "small-lg" {
+        @media (min-width: 1200px) and (max-width: 1439px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "xs-lg" {
+        @media screen and (max-width: 1439px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == "lg-lg" {
+        @media screen and (min-width: 1440px) {
+            @content;
+        }
+    }
+}
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    } @else {
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+}
 :root {
     --white-color: #fff;
 }
@@ -165,5 +306,287 @@ Text Domain:	 scaleupsearch-child
                 }
             }
         }
+    }
+}
+
+
+.accordion-style-1 {
+    .accordion-item {
+        border: none;
+    }
+    .accordion-body {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .accordion-header {
+        .accordion-button {
+            background-color: transparent;
+            box-shadow: none;
+            padding: 10px 0;
+            &:after {
+                content: none;
+            }
+
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+            span {
+                font-size: 14px;
+                margin-left: 12px;
+                font-weight: 500;
+                color: var(--black-color);
+            }
+            svg {
+                color: var(--accent-color);
+            }
+            &[aria-expanded="false"] {
+                .fa-plus {
+                    display: inline;
+                }
+                .fa-minus {
+                    display: none;
+                }
+            }
+            &[aria-expanded="true"] {
+                .fa-plus {
+                    display: none;
+                }
+                .fa-minus {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+
+.modal.modal {
+    padding-right: 0 !important;
+    z-index: 999999;
+    overflow: hidden;
+    .modal-dialog {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        background-color: var(--white-color);
+        max-width: 775px;
+        padding: 0;
+        width: 100%;
+        transition: 500ms;
+        transform: translateX(100%);
+        .modal-content {
+            height: 100%;
+            position: static;
+            border: none;
+            border-radius: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding: 11%;
+            .modal-header,
+            .modal-body {
+                padding: 0;
+                border: none;
+            }
+            @include respond-to(xs-ms) {
+                padding: 6% 7%;
+            }
+        }
+        .modal-title {
+            font-size: 36px;
+            line-height: 1;
+        }
+        .btn-close {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            @include respond-to(xs-ms) {
+                top: 20px;
+                right: 10px;
+            }
+        }
+    }
+    &.show {
+        .modal-dialog {
+            transform: translateX(0);
+        }
+    }
+}
+
+.modal-backdrop.modal-backdrop {
+    width: 0;
+    right: 0;
+    left: auto;
+    background: #01141cbf;
+    opacity: 1;
+    z-index: 9999;
+    transition: 500ms;
+    &.show {
+        width: 100% !important;
+    }
+}
+
+section.careers-archive {
+    font-family: stolzl, sans-serif;
+    .filter-wrapper {
+        @include respond-to(mobile) {
+            flex-direction: column;
+            h2 {
+                margin-bottom: 15px !important;
+            }
+        }
+    }
+    .load-more {
+        margin-top: 50px;
+    }
+    .career-wrapper {
+        .career-holder {
+            padding: 45px 20px;
+            box-shadow: 0px 29px 35px #0000000d;
+            background-color: #fff;
+            border-radius: 15px;
+            .inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                .career-title {
+                    h3 {
+                        margin-right: 25px;
+                        margin-bottom: 0;
+                        @include respond-to(md-lg) {
+                            font-size: 37px;
+                        }
+                    }
+                    span {
+                        color: gray;
+                        font-size: 26px;
+                        font-weight: 300;
+                        @include respond-to(xs) {
+                            font-size: 18px;
+                        }
+                    }
+                    @include respond-to(xs) {
+                        margin-bottom: 20px;
+                    }
+                }
+                .salary {
+                    white-space: nowrap;
+                }
+
+                @include respond-to(xs) {
+                    flex-wrap: wrap;
+                }
+            }
+
+            .body {
+                .accordion-holder {
+                    margin-bottom: 40px;
+                }
+                .career-description {
+                    margin-bottom: 30px;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+                @include respond-to(xs) {
+                    margin-bottom: 30px;
+                }
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .category-wrapper {
+        margin-bottom: 72px;
+
+        .inner {
+            padding: 20px;
+            border-radius: 50px;
+            background-color: var(--white-color);
+            a {
+                background-color: var(--accent-color);
+                padding: 4px 20px;
+                color: var(--white-color);
+                font-size: 14px;
+                text-decoration: none;
+                border-radius: 30px;
+                display: inline-block;
+                font-weight: 300;
+                line-height: 1;
+                text-transform: uppercase;
+                border: 2px solid var(--accent-color);
+
+                &:not(:last-child) {
+                    margin-right: 18px;
+                }
+                &.selected {
+                    background-color: var(--primary-color);
+                    pointer-events: none;
+                    background: transparent;
+                    color: var(--accent-color);
+                }
+                @include on-event() {
+                    transform: translateX(-5px);
+                }
+            }
+        }
+    }
+}
+
+
+#applyModal {
+    font-family: "stolzl", sans-serif;
+    .form-file-column {
+        margin-bottom: 37px;
+        position: relative;
+        .column-1_1 {
+            padding-bottom: 0;
+        }
+    }
+    br {
+        display: none !important;
+    }
+    div.wpcf7 .form-style-3 .style-line[class*="icon-"] textarea,
+    div.wpcf7 .form-style-3 .style-line[class*="icon-"] select,
+    div.wpcf7 .form-style-3 .style-line[class*="icon-"] input {
+        font-weight: 300;
+        color: var(--accent-color);
+    }
+    .fake-input-wrapper {
+        position: absolute;
+        top: 0;
+        left: 36px;
+        right: 30px;
+        bottom: 1px;
+        z-index: 999;
+        background-color: var(--white-color);
+        .fake-input {
+            font-weight: 300;
+            color: var(--primary-color);
+            &.active {
+                color: var(--accent-color);
+            }
+        }
+        .select-file {
+            cursor: pointer;
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+    }
+    input[type="file"] {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+}
+html {
+    &.overflow-hidden.overflow-hidden {
+        overflow: hidden !important;
     }
 }
