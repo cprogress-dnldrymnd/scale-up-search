@@ -3,7 +3,7 @@
 function breadcrumbs() {
     ob_start();
     ?>
-    <div class="breadrumbs">
+    <div class="breadcrumbs">
         <ul>
             <li>
                 <a href="<?= get_site_url() ?>">Home</a>

@@ -11,6 +11,10 @@ Text Domain:	 scaleupsearch-child
     Add your custom styles here
 */
 
+:root {
+    --white-color: #fff;
+}
+
 .elementor-widget-ogeko-heading .elementor-heading-title,
 .elementor-widget-ogeko-heading .elementor-heading-title a {
     line-height: 1.2;
@@ -101,6 +105,31 @@ Text Domain:	 scaleupsearch-child
                         background-position: center;
                         background-repeat: no-repeat;
                     }
+                }
+            }
+        }
+    }
+}
+
+.breadcrumbs {
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        li {
+            a,
+            span {
+                color: var(--white-color);
+            }
+            &:not(:last-child) {
+                &:after {
+                    width: 9px;
+                    height: 2px;
+                    background-color: var(--white-color);
+                    display: inline-block;
+                    margin-left: 11px;
+                    margin-right: 11px;
                 }
             }
         }
