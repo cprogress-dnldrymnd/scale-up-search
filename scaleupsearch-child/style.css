@@ -209,10 +209,22 @@ html.overflow-hidden.overflow-hidden {
 .accordion-careers .accordion-item {
   border-radius: 32px;
   border: none;
-  background-color: var(--white-color); }
+  background-color: var(--white-color);
+  overflow: hidden; }
+  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
+    display: none; }
+  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
+    display: inline-block; }
+  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
+    display: inline-block; }
+  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
+    display: none; }
   .accordion-careers .accordion-item .accordion-header h2 {
     font-size: 31px; }
   .accordion-careers .accordion-item:not(:last-child) {
     margin-bottom: 35px; }
+
+.post-type-archive-careers #content {
+  background-color: #f4f5f5; }
 
 /*# sourceMappingURL=style.css.map */

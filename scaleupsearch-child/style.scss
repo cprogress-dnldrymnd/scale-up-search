@@ -431,7 +431,26 @@ html {
         border-radius: 32px;
         border: none;
         background-color: var(--white-color);
+        overflow: hidden;
         .accordion-header {
+            .accordion-button {
+                &[aria-expanded="true"] {
+                    .fa-plus {
+                        display: none;
+                    }
+                    .fa-minus {
+                        display: inline-block;
+                    }
+                }
+                &[aria-expanded="false"] {
+                    .fa-plus {
+                        display: inline-block;
+                    }
+                    .fa-minus {
+                        display: none;
+                    }
+                }
+            }
             h2 {
                 font-size: 31px;
             }
@@ -439,5 +458,11 @@ html {
         &:not(:last-child) {
             margin-bottom: 35px;
         }
+    }
+}
+
+.post-type-archive-careers {
+    #content {
+        background-color: #f4f5f5;
     }
 }
