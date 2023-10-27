@@ -10,8 +10,8 @@ $main_query = get_queried_object();
                     <div class="career-wrapper">
                         <div class="accordion accordion-careers" id="accordion-Careers">
                             <?php
+                            $key = 0;
                             while (have_posts()) {
-                                $key = 0;
                                 the_post(); ?>
                                 <?php
                                 $location = carbon_get_the_post_meta('location');
