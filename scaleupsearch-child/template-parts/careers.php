@@ -52,8 +52,8 @@ $main_query = get_queried_object();
                                     </div>
 
                                 </div>
-                            <?php }
-                            $key++ ?>
+                            <?php  $key++ }
+                           ?>
                             
 
                         </div>
