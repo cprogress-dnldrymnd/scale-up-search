@@ -119,36 +119,6 @@ Text Domain:	 scaleupsearch-child
       content: "FIND OUT MORE";
       font-size: 18px; }
 
-.accordion-style-1 .accordion-item {
-  border: none; }
-.accordion-style-1 .accordion-body {
-  font-size: 15px;
-  font-weight: 300; }
-.accordion-style-1 .accordion-header .accordion-button {
-  background-color: transparent;
-  box-shadow: none;
-  padding: 10px 0; }
-  .accordion-style-1 .accordion-header .accordion-button:after {
-    content: none; }
-  .accordion-style-1 .accordion-header .accordion-button svg {
-    width: 30px;
-    height: 30px; }
-  .accordion-style-1 .accordion-header .accordion-button span {
-    font-size: 14px;
-    margin-left: 12px;
-    font-weight: 500;
-    color: var(--black-color); }
-  .accordion-style-1 .accordion-header .accordion-button svg {
-    color: var(--accent-color); }
-  .accordion-style-1 .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
-    display: inline; }
-  .accordion-style-1 .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
-    display: none; }
-  .accordion-style-1 .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
-    display: none; }
-  .accordion-style-1 .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
-    display: inline; }
-
 .modal.modal {
   padding-right: 0 !important;
   z-index: 999999;
@@ -197,88 +167,6 @@ Text Domain:	 scaleupsearch-child
   transition: 500ms; }
   .modal-backdrop.modal-backdrop.show {
     width: 100% !important; }
-
-section.careers-archive {
-  font-family: stolzl, sans-serif; }
-  @media screen and (max-width: 575px) {
-    section.careers-archive .filter-wrapper {
-      flex-direction: column; }
-      section.careers-archive .filter-wrapper h2 {
-        margin-bottom: 15px !important; } }
-  section.careers-archive .load-more {
-    margin-top: 50px; }
-  section.careers-archive .career-wrapper .career-holder {
-    padding: 45px 20px;
-    box-shadow: 0px 29px 35px #0000000d;
-    background-color: #fff;
-    border-radius: 15px; }
-    section.careers-archive .career-wrapper .career-holder .inner {
-      max-width: 1000px;
-      margin-left: auto;
-      margin-right: auto; }
-    section.careers-archive .career-wrapper .career-holder .header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 30px; }
-      section.careers-archive .career-wrapper .career-holder .header .career-title h3 {
-        margin-right: 25px;
-        margin-bottom: 0; }
-        @media screen and (min-width: 992px) {
-          section.careers-archive .career-wrapper .career-holder .header .career-title h3 {
-            font-size: 37px; } }
-      section.careers-archive .career-wrapper .career-holder .header .career-title span {
-        color: gray;
-        font-size: 26px;
-        font-weight: 300; }
-        @media screen and (max-width: 767px) {
-          section.careers-archive .career-wrapper .career-holder .header .career-title span {
-            font-size: 18px; } }
-      @media screen and (max-width: 767px) {
-        section.careers-archive .career-wrapper .career-holder .header .career-title {
-          margin-bottom: 20px; } }
-      section.careers-archive .career-wrapper .career-holder .header .salary {
-        white-space: nowrap; }
-      @media screen and (max-width: 767px) {
-        section.careers-archive .career-wrapper .career-holder .header {
-          flex-wrap: wrap; } }
-    section.careers-archive .career-wrapper .career-holder .body .accordion-holder {
-      margin-bottom: 40px; }
-    section.careers-archive .career-wrapper .career-holder .body .career-description {
-      margin-bottom: 30px;
-      font-size: 15px;
-      font-weight: 300; }
-    @media screen and (max-width: 767px) {
-      section.careers-archive .career-wrapper .career-holder .body {
-        margin-bottom: 30px; } }
-    section.careers-archive .career-wrapper .career-holder:not(:last-child) {
-      margin-bottom: 40px; }
-  section.careers-archive .category-wrapper {
-    margin-bottom: 72px; }
-    section.careers-archive .category-wrapper .inner {
-      padding: 20px;
-      border-radius: 50px;
-      background-color: var(--white-color); }
-      section.careers-archive .category-wrapper .inner a {
-        background-color: var(--accent-color);
-        padding: 4px 20px;
-        color: var(--white-color);
-        font-size: 14px;
-        text-decoration: none;
-        border-radius: 30px;
-        display: inline-block;
-        font-weight: 300;
-        line-height: 1;
-        text-transform: uppercase;
-        border: 2px solid var(--accent-color); }
-        section.careers-archive .category-wrapper .inner a:not(:last-child) {
-          margin-right: 18px; }
-        section.careers-archive .category-wrapper .inner a.selected {
-          background-color: var(--primary-color);
-          pointer-events: none;
-          background: transparent;
-          color: var(--accent-color); }
-        section.careers-archive .category-wrapper .inner a:hover, section.careers-archive .category-wrapper .inner a:active, section.careers-archive .category-wrapper .inner a:focus {
-          transform: translateX(-5px); }
 
 #applyModal {
   font-family: "stolzl", sans-serif; }
