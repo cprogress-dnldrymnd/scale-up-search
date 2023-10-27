@@ -8,7 +8,7 @@ $main_query = get_queried_object();
             <div id="results">
                 <div class="results-holder">
                     <div class="career-wrapper">
-                        <div class="accordion" id="accordion-Careers">
+                        <div class="accordion accordion-careers" id="accordion-Careers">
                             <?php
                             while (have_posts()) {
                                 the_post(); ?>

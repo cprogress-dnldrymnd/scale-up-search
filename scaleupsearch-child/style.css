@@ -206,4 +206,11 @@ Text Domain:	 scaleupsearch-child
 html.overflow-hidden.overflow-hidden {
   overflow: hidden !important; }
 
+.accordion-careers .accordion-item {
+  border-radius: 32px;
+  border: none;
+  background-color: var(--white-color); }
+  .accordion-careers .accordion-item:not(:last-child) {
+    margin-bottom: 35px; }
+
 /*# sourceMappingURL=style.css.map */
