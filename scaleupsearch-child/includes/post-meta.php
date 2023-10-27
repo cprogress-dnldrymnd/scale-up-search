@@ -32,7 +32,6 @@ Container::make('post_meta', __('Careers Details'))
     ->add_fields(array(
         Field::make('text', 'salary', 'Salary'),
         Field::make('text', 'location', 'Location'),
-        Field::make('text', 'description', 'Description'),
         
     ));
 
