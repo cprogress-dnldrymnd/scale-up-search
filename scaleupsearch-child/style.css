@@ -224,61 +224,58 @@ Text Domain:	 scaleupsearch-child
 html.overflow-hidden.overflow-hidden {
   overflow: hidden !important; }
 
-.accordion-careers {
-  padding-top: 50px;
-  padding-bottom: 50px; }
-  .accordion-careers .accordion-item {
-    border-radius: 32px;
+.accordion-careers .accordion-item {
+  border-radius: 32px;
+  border: none;
+  background-color: var(--white-color);
+  overflow: hidden; }
+  .accordion-careers .accordion-item .accordion-body {
+    color: #1b164b;
+    font-size: 20px;
+    padding-left: 80px; }
+    .accordion-careers .accordion-item .accordion-body .work-location {
+      font-size: 25px; }
+    .accordion-careers .accordion-item .accordion-body h3 {
+      font-size: 25px; }
+    .accordion-careers .accordion-item .accordion-body ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .accordion-careers .accordion-item .accordion-body ul li {
+        display: flex;
+        align-items: center; }
+        .accordion-careers .accordion-item .accordion-body ul li:before {
+          content: "";
+          width: 15px;
+          height: 15px;
+          flex: 0 0 15px;
+          background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16"><path fill="%2342C697" d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/></svg>');
+          margin-right: 20px; }
+    .accordion-careers .accordion-item .accordion-body .elementor-button-wrapper {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+  .accordion-careers .accordion-item .accordion-header svg {
+    width: 30px;
+    height: 30px;
+    color: #42c697;
+    margin-right: 30px; }
+  .accordion-careers .accordion-item .accordion-header .accordion-button {
+    box-shadow: none;
     border: none;
-    background-color: var(--white-color);
-    overflow: hidden; }
-    .accordion-careers .accordion-item .accordion-body {
-      color: #1b164b;
-      font-size: 20px;
-      padding-left: 80px; }
-      .accordion-careers .accordion-item .accordion-body .work-location {
-        font-size: 25px; }
-      .accordion-careers .accordion-item .accordion-body h3 {
-        font-size: 25px; }
-      .accordion-careers .accordion-item .accordion-body ul {
-        list-style: none;
-        padding: 0;
-        margin: 0; }
-        .accordion-careers .accordion-item .accordion-body ul li {
-          display: flex;
-          align-items: center; }
-          .accordion-careers .accordion-item .accordion-body ul li:before {
-            content: "";
-            width: 15px;
-            height: 15px;
-            flex: 0 0 15px;
-            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16"><path fill="%2342C697" d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/></svg>');
-            margin-right: 20px; }
-      .accordion-careers .accordion-item .accordion-body .elementor-button-wrapper {
-        margin-top: 30px;
-        margin-bottom: 30px; }
-    .accordion-careers .accordion-item .accordion-header svg {
-      width: 30px;
-      height: 30px;
-      color: #42c697;
-      margin-right: 30px; }
-    .accordion-careers .accordion-item .accordion-header .accordion-button {
-      box-shadow: none;
-      border: none;
-      background-color: transparent;
-      font-size: 31px;
-      color: #1b164b;
-      text-transform: initial; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
-        display: none; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
-        display: inline-block; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
-        display: inline-block; }
-      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
-        display: none; }
-    .accordion-careers .accordion-item:not(:last-child) {
-      margin-bottom: 35px; }
+    background-color: transparent;
+    font-size: 31px;
+    color: #1b164b;
+    text-transform: initial; }
+    .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
+      display: none; }
+    .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
+      display: inline-block; }
+    .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
+      display: inline-block; }
+    .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
+      display: none; }
+  .accordion-careers .accordion-item:not(:last-child) {
+    margin-bottom: 35px; }
 
 .post-type-archive-careers .container {
   max-width: 1410px; }
