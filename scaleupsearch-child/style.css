@@ -210,6 +210,8 @@ html.overflow-hidden.overflow-hidden {
   border-radius: 32px;
   border: none;
   background-color: var(--white-color); }
+  .accordion-careers .accordion-item .accordion-header h2 {
+    font-size: 31px; }
   .accordion-careers .accordion-item:not(:last-child) {
     margin-bottom: 35px; }
 

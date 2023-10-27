@@ -431,6 +431,11 @@ html {
         border-radius: 32px;
         border: none;
         background-color: var(--white-color);
+        .accordion-header {
+            h2 {
+                font-size: 31px;
+            }
+        }
         &:not(:last-child) {
             margin-bottom: 35px;
         }
