@@ -211,16 +211,24 @@ html.overflow-hidden.overflow-hidden {
   border: none;
   background-color: var(--white-color);
   overflow: hidden; }
-  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
-    display: none; }
-  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
-    display: inline-block; }
-  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
-    display: inline-block; }
-  .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
-    display: none; }
-  .accordion-careers .accordion-item .accordion-header h2 {
+  .accordion-careers .accordion-item .accordion-header {
     font-size: 31px; }
+    .accordion-careers .accordion-item .accordion-header svg {
+      width: 30px;
+      height: 30px;
+      color: #42C697; }
+    .accordion-careers .accordion-item .accordion-header .accordion-button {
+      box-shadow: none;
+      border: none;
+      background-color: transparent; }
+      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
+        display: none; }
+      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {
+        display: inline-block; }
+      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-plus {
+        display: inline-block; }
+      .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="false"] .fa-minus {
+        display: none; }
   .accordion-careers .accordion-item:not(:last-child) {
     margin-bottom: 35px; }
 

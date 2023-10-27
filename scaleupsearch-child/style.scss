@@ -433,7 +433,16 @@ html {
         background-color: var(--white-color);
         overflow: hidden;
         .accordion-header {
+            font-size: 31px;
+            svg {
+                width: 30px;
+                height: 30px;
+                color: #42C697;
+            }
             .accordion-button {
+                box-shadow: none;
+                border: none;
+                background-color: transparent;
                 &[aria-expanded="true"] {
                     .fa-plus {
                         display: none;
@@ -450,9 +459,6 @@ html {
                         display: none;
                     }
                 }
-            }
-            h2 {
-                font-size: 31px;
             }
         }
         &:not(:last-child) {
