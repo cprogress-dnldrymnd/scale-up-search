@@ -87,6 +87,8 @@ Text Domain:	 scaleupsearch-child
   display: flex;
   align-items: center;
   margin: 0; }
+  .breadcrumbs ul li a:hover {
+    text-decoration: underline; }
   .breadcrumbs ul li a,
   .breadcrumbs ul li span {
     color: var(--white-color);
