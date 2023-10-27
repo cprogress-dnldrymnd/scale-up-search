@@ -213,16 +213,23 @@ html.overflow-hidden.overflow-hidden {
     border: none;
     background-color: var(--white-color);
     overflow: hidden; }
+    .accordion-careers .accordion-item .accordion-body {
+      color: #1B164B;
+      font-size: 20px; }
+      .accordion-careers .accordion-item .accordion-body .work-location {
+        font-size: 25px; }
     .accordion-careers .accordion-item .accordion-header svg {
       width: 30px;
       height: 30px;
-      color: #42C697; }
+      color: #42C697;
+      margin-right: 30px; }
     .accordion-careers .accordion-item .accordion-header .accordion-button {
       box-shadow: none;
       border: none;
       background-color: transparent;
       font-size: 31px;
-      color: #1B164B; }
+      color: #1B164B;
+      text-transform: initial; }
       .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-plus {
         display: none; }
       .accordion-careers .accordion-item .accordion-header .accordion-button[aria-expanded="true"] .fa-minus {

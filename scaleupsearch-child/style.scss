@@ -433,12 +433,20 @@ html {
         border: none;
         background-color: var(--white-color);
         overflow: hidden;
+        .accordion-body {
+            color: #1B164B;
+            font-size: 20px;
+            .work-location {
+                font-size: 25px;
+            }
+        }
         .accordion-header {
        
             svg {
                 width: 30px;
                 height: 30px;
                 color: #42C697;
+                margin-right: 30px;
             }
             .accordion-button {
                 box-shadow: none;
@@ -446,6 +454,7 @@ html {
                 background-color: transparent;
                 font-size: 31px;
                 color: #1B164B;
+                text-transform: initial;
                 &[aria-expanded="true"] {
                     .fa-plus {
                         display: none;
