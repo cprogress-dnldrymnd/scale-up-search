@@ -37,7 +37,7 @@ $main_query = get_queried_object();
                                             <?php the_content() ?>
 
                                             <div class="elementor-button-wrapper">
-                                                <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button" data-title="<?php the_title() ?>" data-bs-toggle="modal" data-bs-target="#applyModal">
+                                                <a href="#" class="apply-button elementor-button-link elementor-button elementor-size-sm" role="button" data-title="<?php the_title() ?>" data-bs-toggle="modal" data-bs-target="#applyModal">
                                                     <span class="elementor-button-content-wrapper">
                                                         <span class="elementor-button-icon left">
                                                             <i aria-hidden="true" class="ogeko-icon- ogeko-icon-arrow-right"></i> </span>
