@@ -13,7 +13,7 @@ $main_query = get_queried_object();
                             while (have_posts()) {
                                 the_post(); ?>
                                 <?php
-                                $location = get_the_terms(get_the_ID(), 'location');
+                                $location = carbon_get_the_post_meta('location');
                                 ?>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading<?= get_the_ID() . '-description'  ?>">
