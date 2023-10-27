@@ -141,7 +141,7 @@ Text Domain:	 scaleupsearch-child
       border: none;
       border-radius: 0;
       overflow-y: auto;
-      overflow-x: hbidden;
+      overflow-x: hidden;
       padding: 11%;
       background-color: #f4f5f5; }
       .modal.modal .modal-dialog .modal-content .modal-header,
@@ -185,15 +185,17 @@ Text Domain:	 scaleupsearch-child
     color: var(--accent-color); }
   #applyModal .fake-input-wrapper {
     position: absolute;
-    top: 0;
-    left: 36px;
+    top: 1px;
+    left: 20px;
     right: 30px;
     bottom: 1px;
     z-index: 999;
-    background-color: var(--white-color); }
+    background-color: var(--white-color);
+    margin-bottom: 0; }
     #applyModal .fake-input-wrapper .fake-input {
       font-weight: 300;
-      color: var(--primary-color); }
+      color: var(--primary-color);
+      border: none; }
       #applyModal .fake-input-wrapper .fake-input.active {
         color: var(--accent-color); }
     #applyModal .fake-input-wrapper .select-file {
@@ -216,6 +218,8 @@ Text Domain:	 scaleupsearch-child
     border-radius: 12px;
     padding: 10px 18px;
     border-color: #f2f3f2; }
+  #applyModal textarea {
+    height: 100px; }
 
 html.overflow-hidden.overflow-hidden {
   overflow: hidden !important; }
