@@ -106,12 +106,17 @@ Text Domain:	 scaleupsearch-child
       margin-left: 11px;
       margin-right: 11px; }
 
-.service-inner .button-more-link .button-text {
-  visibility: visible;
-  opacity: 1;
-  font-size: 0; }
-  .service-inner .button-more-link .button-text:before {
-    content: 'FIND OUT MORE';
-    font-size: 18px; }
+.service-inner .button-more-link .button-content-wrapper {
+  flex-direction: row-reverse;
+  margin-left: -25px; }
+  .service-inner .button-more-link .button-content-wrapper .button-text {
+    visibility: visible;
+    opacity: 1;
+    font-size: 0;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .service-inner .button-more-link .button-content-wrapper .button-text:before {
+      content: "FIND OUT MORE";
+      font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
