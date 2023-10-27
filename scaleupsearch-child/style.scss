@@ -134,7 +134,7 @@ Text Domain:	 scaleupsearch-child
             }
             &:not(:last-child) {
                 &:after {
-                    content: '';
+                    content: "";
                     width: 9px;
                     height: 2px;
                     background-color: var(--white-color);
@@ -145,4 +145,16 @@ Text Domain:	 scaleupsearch-child
             }
         }
     }
+}
+
+.service-inner .button-more-link {
+    .button-text {
+        visibility: visible;
+        opacity: 1;
+        font-size: 0;
+        &:before {
+            content: 'FIND OUT MORE';
+            font-size: 18px;
+        }
+    }   
 }

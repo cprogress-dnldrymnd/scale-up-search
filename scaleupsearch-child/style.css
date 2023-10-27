@@ -98,12 +98,20 @@ Text Domain:	 scaleupsearch-child
       font-size: 12px;
       text-transform: uppercase; }
     .breadcrumbs ul li:not(:last-child):after {
-      content: '';
+      content: "";
       width: 9px;
       height: 2px;
       background-color: var(--white-color);
       display: inline-block;
       margin-left: 11px;
       margin-right: 11px; }
+
+.service-inner .button-more-link .button-text {
+  visibility: visible;
+  opacity: 1;
+  font-size: 0; }
+  .service-inner .button-more-link .button-text:before {
+    content: 'FIND OUT MORE';
+    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
