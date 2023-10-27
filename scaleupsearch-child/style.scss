@@ -517,6 +517,9 @@ html {
 }
 
 .post-type-archive-careers {
+    .container {
+        max-width: 1390px;
+    }
     #content {
         background-color: #f4f5f5;
         margin-bottom: 0;
