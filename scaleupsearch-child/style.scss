@@ -119,6 +119,8 @@ Text Domain:	 scaleupsearch-child
         align-items: center;
         margin: 0;
         li {
+            display: flex;
+            align-items: center;
             a {
                 &:hover {
                     text-decoration: underline;

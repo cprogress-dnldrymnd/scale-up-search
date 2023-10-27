@@ -87,20 +87,23 @@ Text Domain:	 scaleupsearch-child
   display: flex;
   align-items: center;
   margin: 0; }
-  .breadcrumbs ul li a:hover {
-    text-decoration: underline; }
-  .breadcrumbs ul li a,
-  .breadcrumbs ul li span {
-    color: var(--white-color);
-    font-size: 12px;
-    text-transform: uppercase; }
-  .breadcrumbs ul li:not(:last-child):after {
-    content: '';
-    width: 9px;
-    height: 2px;
-    background-color: var(--white-color);
-    display: inline-block;
-    margin-left: 11px;
-    margin-right: 11px; }
+  .breadcrumbs ul li {
+    display: flex;
+    align-items: center; }
+    .breadcrumbs ul li a:hover {
+      text-decoration: underline; }
+    .breadcrumbs ul li a,
+    .breadcrumbs ul li span {
+      color: var(--white-color);
+      font-size: 12px;
+      text-transform: uppercase; }
+    .breadcrumbs ul li:not(:last-child):after {
+      content: '';
+      width: 9px;
+      height: 2px;
+      background-color: var(--white-color);
+      display: inline-block;
+      margin-left: 11px;
+      margin-right: 11px; }
 
 /*# sourceMappingURL=style.css.map */
