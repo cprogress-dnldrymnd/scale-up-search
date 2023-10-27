@@ -216,7 +216,8 @@ html.overflow-hidden.overflow-hidden {
     overflow: hidden; }
     .accordion-careers .accordion-item .accordion-body {
       color: #1b164b;
-      font-size: 20px; }
+      font-size: 20px;
+      padding-left: 80px; }
       .accordion-careers .accordion-item .accordion-body .work-location {
         font-size: 25px; }
       .accordion-careers .accordion-item .accordion-body h3 {
