@@ -25,12 +25,11 @@ require_once('includes/post-types.php');
 
 function action_wp_footer()
 {
-	if (isset($_GET['form'])) {
+	if (isset($_GET['form']) && $_GET['form'] == 'find-a-role') {
 ?>
 		<script>
-			<?php if ($_GET['form'] == 'find-a-role') { ?>
-				jQuery('#elementor-tab-title-8222').click();
-			<?php } ?>
+			jQuery('#elementor-tab-title-8222').click();
+			console.log('<?= $_GET['form'] ?>');
 		</script>
 <?php
 	}
