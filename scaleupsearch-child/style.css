@@ -277,12 +277,12 @@ html.overflow-hidden.overflow-hidden {
   .accordion-careers .accordion-item:not(:last-child) {
     margin-bottom: 35px; }
 
-.post-type-archive-careers .container {
+.post-type-archive-joblistings .container {
   max-width: 1410px; }
-.post-type-archive-careers #content {
+.post-type-archive-joblistings #content {
   background-color: #f4f5f5;
   margin-bottom: 0; }
-.post-type-archive-careers .col-full {
+.post-type-archive-joblistings .col-full {
   max-width: 100%;
   padding: 0; }
 
