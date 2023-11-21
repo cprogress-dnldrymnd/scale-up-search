@@ -15,6 +15,7 @@ $main_query = get_queried_object();
                                 the_post(); ?>
                                 <?php
                                 $location = carbon_get_the_post_meta('location');
+                                $email_address = carbon_get_the_post_meta('email_address');
                                 ?>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading<?= get_the_ID() . '-description'  ?>">
@@ -38,7 +39,7 @@ $main_query = get_queried_object();
                                             <?php the_content() ?>
 
                                             <div class="elementor-button-wrapper">
-                                                <a href="#" class="apply-button elementor-button-link elementor-button elementor-size-sm" role="button" data-title="<?php the_title() ?>" data-bs-toggle="modal" data-bs-target="#applyModal">
+                                                <a href="#" class="apply-button elementor-button-link elementor-button elementor-size-sm" role="button" data-title="<?php the_title() ?>" data-email="<?= $email_address ?>" data-bs-toggle="modal" data-bs-target="#applyModal">
                                                     <span class="elementor-button-content-wrapper">
                                                         <span class="elementor-button-icon left">
                                                             <i aria-hidden="true" class="ogeko-icon- ogeko-icon-arrow-right"></i> </span>
@@ -91,7 +92,9 @@ $main_query = get_queried_object();
 
         jQuery(document).on("click", '.apply-button', function(event) {
             $title = jQuery(this).attr('data-title');
+            $data_email = jQuery(this).attr('data-email');
             jQuery('input[name="position"]').val($title);
+            jQuery('input[name="client-email"]').val($data_email);
             jQuery('.modal-title span').text($title);
         });
 
