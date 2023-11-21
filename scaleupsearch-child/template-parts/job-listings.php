@@ -18,7 +18,7 @@ $main_query = get_queried_object();
                                 ?>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading<?= get_the_ID() . '-description'  ?>">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?= get_the_ID() . '-description'  ?>" aria-expanded="<?= $key == 0 ? 'true ' : 'false' ?>" aria-controls="collapse<?= get_the_ID() . '-description'  ?>">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?= get_the_ID() . '-description'  ?>" aria-expanded="<?= $key == 0 ? 'true' : 'false' ?>" aria-controls="collapse<?= get_the_ID() . '-description'  ?>">
                                             <svg class="fa-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
                                                 <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                                             </svg>
