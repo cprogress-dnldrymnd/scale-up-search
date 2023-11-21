@@ -27,8 +27,8 @@ Container::make('theme_options', __('Theme Settings'))
 /* Career Settings
 /*-----------------------------------------------------------------------------------*/
 
-Container::make('post_meta', __('Careers Details'))
-    ->where('post_type', '=', 'careers')
+Container::make('post_meta', __('Job Listing Details'))
+    ->where('post_type', '=', 'joblistings')
     ->add_fields(array(
         Field::make('text', 'salary', 'Salary'),
         Field::make('text', 'location', 'Location'),
