@@ -154,14 +154,6 @@ new newPostType(array(
 ));
 
 
-new newPostType(array(
-	'name' => 'Job Listings',
-	'singular_name' => 'Job Listing',
-	'icon' => 'dashicons-businesswoman',
-	'rewrite' => array('slug' => 'job-listings'),
-	'supports' => array( 'title', 'editor', 'revisions','page-attributes'),
-	'hierarchical' => true,
-));
 
 /*
 new newTaxonomy(array(
