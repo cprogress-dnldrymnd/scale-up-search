@@ -148,6 +148,16 @@ new newPostType(array(
 	'name' => 'Careers',
 	'singular_name' => 'Career',
 	'icon' => 'dashicons-businesswoman',
+	'rewrite' => array('slug' => 'careers'),
+	'supports' => array( 'title', 'editor', 'revisions','page-attributes'),
+	'hierarchical' => true,
+));
+
+
+new newPostType(array(
+	'name' => 'Job Listings',
+	'singular_name' => 'Job Listing',
+	'icon' => 'dashicons-businesswoman',
 	'rewrite' => array('slug' => 'job-listings'),
 	'supports' => array( 'title', 'editor', 'revisions','page-attributes'),
 	'hierarchical' => true,
