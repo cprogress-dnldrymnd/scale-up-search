@@ -144,16 +144,15 @@ class newTaxonomy {
 }
 
 
+
 new newPostType(array(
-	'name' => 'Careers',
-	'singular_name' => 'Career',
+	'name' => 'Job Listings',
+	'singular_name' => 'Job Listing',
 	'icon' => 'dashicons-businesswoman',
-	'rewrite' => array('slug' => 'careers'),
+	'rewrite' => array('slug' => 'job-listings'),
 	'supports' => array( 'title', 'editor', 'revisions','page-attributes'),
 	'hierarchical' => true,
 ));
-
-
 
 /*
 new newTaxonomy(array(
