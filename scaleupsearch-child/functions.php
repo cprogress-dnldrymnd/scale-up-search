@@ -28,8 +28,9 @@ function action_wp_footer()
 	if (isset($_GET['form']) && $_GET['form'] == 'find-a-role') {
 ?>
 		<script>
-			jQuery('#elementor-tab-title-8222').click();
-			console.log('<?= $_GET['form'] ?>');
+			setTimeout(function() {
+				jQuery('#elementor-tab-title-8222').click();
+			}, 1000);
 		</script>
 <?php
 	}
